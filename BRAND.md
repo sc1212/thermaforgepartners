@@ -88,7 +88,7 @@ representing forge sparks. Zach can commission a proper TF monogram later.
 | **ThermaForge Operate** | $8,000/mo + equity | Operating partner work + search-intent lead-gen + Routebook ERP |
 | **ThermaForge Scale** | $14,500/mo + equity | Operate + Frontline AI + multi-platform content engine + Echo Clip video + community engagement + quarterly brand refresh |
 
-6-client cap across both tiers (operating partner attention is the constraint).
+Geographic exclusivity guaranteed within each client's service area — defined in the engagement letter, not a marketing claim.
 
 ## Forbidden tokens (must = 0 in shipped HTML)
 
@@ -102,3 +102,11 @@ representing forge sparks. Zach can commission a proper TF monogram later.
 
 - **2026-04-27** — Initial spec. Brand direction: ember + deep charcoal + steel.
   Wordmark uppercase. No standalone mark v1.
+- **2026-04-27** — Removed manufactured "6 clients a year" cap from public copy. The number
+  was invented as a scarcity device and contradicted the operator-to-owner voice persona
+  this brand is supposed to use. Replaced with honest framing: operating-partner attention
+  is the real constraint, capacity is managed against partner availability rather than
+  a calendar number. Replaced the "six engagements / two left for 2026" CTA headline
+  (lie of implication when the actual count is zero) and the "Why only six clients" FAQ
+  entry. New FAQ entry on **geographic exclusivity** — a question owners doing $5M+
+  actually ask before signing an engagement at this price point.

@@ -1,13 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 56" role="img" aria-label="ThermaForge Partners">
-  <rect x="0" y="18" width="20" height="20" fill="#E8602B"/>
-  <text x="32" y="34"
-        font-family="Inter, system-ui, sans-serif"
-        font-size="22" font-weight="700"
-        letter-spacing="1.2"
-        fill="#0D0D0F">THERMAFORGE</text>
-  <text x="32" y="50"
-        font-family="Inter, system-ui, sans-serif"
-        font-size="11" font-weight="500"
-        letter-spacing="3.4"
-        fill="#4A5058">PARTNERS</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ThermaForge Partners — wordmark for LIGHT surfaces
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 130" role="img" aria-label="ThermaForge Partners">
+  <title>ThermaForge Partners</title>
+  <style>
+    .therm { font-family: 'Helvetica Neue', 'Arial Black', Inter, sans-serif; font-weight: 900; font-size: 60px; letter-spacing: 2px; fill: #0D0D0F; }
+    .partners { font-family: 'Helvetica Neue', Arial, Inter, sans-serif; font-weight: 600; font-size: 18px; letter-spacing: 14px; fill: #D75A11; }
+  </style>
+  <text x="20" y="62" class="therm">THERM</text>
+  <g transform="translate(228, 16)">
+    <polygon points="0,46 24,0 48,46 40,46 24,18 8,46" fill="#0D0D0F"/>
+  </g>
+  <text x="282" y="62" class="therm">FORGE</text>
+  <line x1="38"  y1="92" x2="245" y2="92" stroke="#D75A11" stroke-width="1.5"/>
+  <line x1="495" y1="92" x2="660" y2="92" stroke="#D75A11" stroke-width="1.5"/>
+  <text x="262" y="98" class="partners">PARTNERS</text>
 </svg>

@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>ThermaForge Partners — operating partner for HVAC owners scaling toward exit</title>
+  <meta name="description" content="Fractional operating-partner firm for HVAC owners doing $5M+. Operations uplift, search-intent lead generation, recap and succession positioning — built around the Routebook platform stack." />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="ThermaForge Partners" />
+  <meta property="og:description" content="Operating partner for HVAC owners scaling toward exit." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ember:        #E8602B;
+      --ember-bright: #FF7A3E;
+      --charcoal:     #0D0D0F;
+      --charcoal-2:   #14151A;
+      --bone:         #F5F5F0;
+      --bone-2:       #FAFAF7;
+      --steel:        #4A5058;
+      --mist:         #9A9DA3;
+      --line-dark:    rgba(245,245,240,0.08);
+      --line-light:   #E5E2D9;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: "Inter", system-ui, -apple-system, sans-serif;
+      font-feature-settings: "ss01", "cv11";
+      background: var(--charcoal);
+      color: var(--bone);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--bone); text-decoration: none; }
+    h1, h2, h3, h4 { margin: 0; letter-spacing: -0.02em; font-weight: 600; }
+    h1 { font-size: clamp(36px, 5.4vw, 64px); line-height: 1.05; letter-spacing: -0.03em; }
+    h2 { font-size: clamp(26px, 3.4vw, 42px); line-height: 1.15; }
+    h3 { font-size: 20px; }
+    p { margin: 0; }
+    img, svg { display: block; max-width: 100%; }
+    hr.hairline { border: 0; border-top: 1px solid var(--line-dark); margin: 0; }
+
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
+    .section { padding: 96px 0; }
+    .section-bone { background: var(--bone-2); color: var(--charcoal); }
+    .section-bone hr.hairline { border-top-color: var(--line-light); }
+    .section-bone h2 { color: var(--charcoal); }
+
+    .eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 0.6px; text-transform: uppercase; color: var(--ember); margin: 0 0 16px; }
+    .section-bone .eyebrow { color: var(--ember); }
+    .lead { font-size: clamp(17px, 1.4vw, 19px); line-height: 1.6; color: var(--mist); max-width: 720px; margin: 24px 0 0; }
+    .section-bone .lead { color: var(--steel); }
+
+    /* ── Header ──────────────────────────────────────────────────────────── */
+    header.site {
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(13,13,15,0.85);
+      backdrop-filter: saturate(180%) blur(12px);
+      -webkit-backdrop-filter: saturate(180%) blur(12px);
+      border-bottom: 1px solid var(--line-dark);
+    }
+    header.site .wrap {
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px;
+    }
+    header.site .brand { height: 32px; }
+    header.site nav { display: flex; align-items: center; gap: 28px; }
+    header.site nav a { font-size: 14px; color: var(--mist); }
+    header.site nav a:hover { color: var(--bone); }
+    header.site nav a.btn { color: var(--charcoal); }
+    @media (max-width: 720px) { header.site nav a:not(.btn) { display: none; } }
+
+    /* ── Buttons ─────────────────────────────────────────────────────────── */
+    .btn { display: inline-flex; align-items: center; justify-content: center; padding: 11px 20px; border-radius: 8px; font-size: 14px; font-weight: 500; transition: background 0.15s, color 0.15s; cursor: pointer; border: 0; }
+    .btn-ember { background: var(--ember); color: var(--charcoal); }
+    .btn-ember:hover { background: var(--ember-bright); }
+    .btn-bone { background: var(--bone); color: var(--charcoal); }
+    .btn-bone:hover { background: white; }
+    .btn-ghost { background: transparent; color: var(--bone); border: 1px solid var(--line-dark); }
+    .btn-ghost:hover { border-color: var(--mist); }
+
+    /* ── Hero ────────────────────────────────────────────────────────────── */
+    .hero { padding: 96px 0 80px; position: relative; overflow: hidden; }
+    .hero::before {
+      content: "";
+      position: absolute; inset: 0;
+      background: radial-gradient(circle at 18% 30%, rgba(232,96,43,0.10), transparent 50%);
+      pointer-events: none;
+    }
+    .hero .wrap { position: relative; z-index: 1; }
+    .hero h1 { max-width: 16ch; }
+    .hero h1 em { font-style: normal; color: var(--ember); }
+    .hero .cta-row { display: flex; gap: 12px; margin-top: 36px; flex-wrap: wrap; }
+    .hero .stamp { display: inline-block; font-size: 12px; font-weight: 500; color: var(--mist); letter-spacing: 0.4px; padding: 6px 12px; border: 1px solid var(--line-dark); border-radius: 999px; margin-bottom: 28px; }
+    .hero .stamp .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--ember); margin-right: 8px; vertical-align: middle; }
+
+    /* ── Founders ────────────────────────────────────────────────────────── */
+    .founders { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; margin-top: 36px; }
+    .founder { padding: 28px; border: 1px solid var(--line-dark); border-radius: 14px; background: var(--charcoal-2); }
+    .founder .role { font-size: 12px; font-weight: 500; letter-spacing: 0.4px; text-transform: uppercase; color: var(--ember); margin: 0 0 8px; }
+    .founder h3 { font-size: 22px; margin-bottom: 6px; }
+    .founder .credential { font-size: 13px; color: var(--mist); margin-bottom: 14px; }
+    .founder p { font-size: 14px; color: var(--bone); line-height: 1.55; }
+    @media (max-width: 720px) { .founders { grid-template-columns: 1fr; } }
+
+    /* ── What we actually do ─────────────────────────────────────────────── */
+    .work-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-top: 40px; }
+    .work-card { padding: 28px 24px; border: 1px solid var(--line-light); border-radius: 14px; background: white; }
+    .section-bone .work-card { background: white; }
+    .work-card .num { font-family: "Inter", monospace; font-size: 13px; font-weight: 600; color: var(--ember); letter-spacing: 0.2px; margin-bottom: 14px; display: block; }
+    .work-card h3 { font-size: 18px; color: var(--charcoal); margin-bottom: 8px; }
+    .work-card p { font-size: 14px; color: var(--steel); line-height: 1.55; }
+    @media (max-width: 720px) { .work-grid { grid-template-columns: 1fr; } }
+
+    /* ── Platform stack section ─────────────────────────────────────────── */
+    .stack-list { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 40px; }
+    .stack-row { display: grid; grid-template-columns: 200px 1fr auto; gap: 28px; padding: 22px 24px; border: 1px solid var(--line-dark); border-radius: 12px; background: var(--charcoal-2); align-items: start; }
+    .stack-row .product-name { font-size: 16px; font-weight: 600; color: var(--bone); }
+    .stack-row .product-name .src { display: block; font-size: 11px; font-weight: 500; color: var(--mist); letter-spacing: 0.3px; text-transform: uppercase; margin-top: 4px; }
+    .stack-row .desc { font-size: 14px; color: var(--mist); line-height: 1.55; }
+    .stack-row .tier-badge { font-size: 11px; font-weight: 600; letter-spacing: 0.4px; padding: 5px 10px; border-radius: 999px; white-space: nowrap; align-self: center; }
+    .stack-row .tier-badge.both { background: rgba(232,96,43,0.16); color: var(--ember-bright); }
+    .stack-row .tier-badge.scale { background: rgba(232,96,43,0.10); color: var(--mist); border: 1px solid rgba(232,96,43,0.4); }
+    @media (max-width: 720px) {
+      .stack-row { grid-template-columns: 1fr; gap: 10px; }
+      .stack-row .tier-badge { justify-self: start; }
+    }
+
+    /* ── Pricing (2 tiers) ───────────────────────────────────────────────── */
+    .tiers { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 40px; }
+    .tier-card { padding: 36px 32px; border-radius: 16px; display: flex; flex-direction: column; border: 1px solid var(--line-dark); background: var(--charcoal-2); }
+    .tier-card.featured { border: 1px solid var(--ember); box-shadow: 0 0 0 4px rgba(232,96,43,0.10); position: relative; }
+    .tier-card.featured::before { content: "★ FULL DEMAND ENGINE"; position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--ember); color: var(--charcoal); font-size: 11px; font-weight: 700; letter-spacing: 0.6px; padding: 6px 14px; border-radius: 999px; white-space: nowrap; }
+    .tier-card .tier-name { font-size: 13px; font-weight: 600; letter-spacing: 0.4px; text-transform: uppercase; color: var(--ember); margin-bottom: 8px; }
+    .tier-card h3 { font-size: 26px; color: var(--bone); margin-bottom: 4px; }
+    .tier-card .pricing-line { display: flex; align-items: baseline; gap: 8px; margin: 18px 0 6px; flex-wrap: wrap; }
+    .tier-card .price-num { font-size: 38px; font-weight: 700; color: var(--bone); letter-spacing: -1px; font-variant-numeric: tabular-nums; line-height: 1; }
+    .tier-card .price-period { font-size: 14px; color: var(--mist); }
+    .tier-card .price-meta { font-size: 12px; color: var(--steel); margin-bottom: 22px; }
+    .tier-card .body { font-size: 14px; color: var(--mist); margin-bottom: 18px; line-height: 1.55; }
+    .tier-card ul { list-style: none; padding: 0; margin: 0 0 22px; font-size: 13.5px; }
+    .tier-card ul li { padding: 8px 0; border-top: 1px solid var(--line-dark); color: var(--bone); line-height: 1.5; }
+    .tier-card ul li:first-child { border-top: 0; }
+    .tier-card ul li::before { content: "→  "; color: var(--ember); font-weight: 600; }
+    .tier-card ul li.adds-on::before { content: "+  "; color: var(--ember); }
+    .tier-card .fit { font-size: 12px; color: var(--mist); border-top: 1px solid var(--line-dark); padding-top: 16px; margin-top: auto; }
+    .tier-card .fit-label { display: block; color: var(--bone); font-weight: 600; font-size: 12px; letter-spacing: 0.3px; margin-bottom: 4px; }
+    .tier-card .cta { margin-top: 20px; }
+    .tier-card .cta .btn { width: 100%; }
+    @media (max-width: 880px) { .tiers { grid-template-columns: 1fr; gap: 28px; } .tier-card.featured::before { top: -10px; } }
+
+    /* ── FAQ ─────────────────────────────────────────────────────────────── */
+    .faq { max-width: 760px; }
+    .faq details { border-top: 1px solid var(--line-dark); padding: 22px 0; }
+    .faq details:last-child { border-bottom: 1px solid var(--line-dark); }
+    .faq summary { font-size: 16px; font-weight: 500; cursor: pointer; list-style: none; color: var(--bone); display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    .faq summary::-webkit-details-marker { display: none; }
+    .faq summary::after { content: "+"; color: var(--ember); font-size: 22px; line-height: 1; transition: transform 0.2s; }
+    .faq details[open] summary::after { content: "−"; }
+    .faq details p { margin-top: 14px; font-size: 14px; color: var(--mist); line-height: 1.65; max-width: 64ch; }
+
+    /* ── CTA block ───────────────────────────────────────────────────────── */
+    .cta-block { padding: 80px 0; background: var(--charcoal-2); }
+    .cta-block .wrap { display: flex; align-items: center; justify-content: space-between; gap: 28px; flex-wrap: wrap; }
+    .cta-block h2 { max-width: 22ch; }
+    .cta-block .row { display: flex; gap: 12px; flex-wrap: wrap; }
+
+    /* ── Footer ──────────────────────────────────────────────────────────── */
+    footer { padding: 56px 0 40px; background: var(--charcoal); border-top: 1px solid var(--line-dark); }
+    footer .grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 32px; }
+    footer h4 { font-size: 12px; font-weight: 600; letter-spacing: 0.4px; text-transform: uppercase; color: var(--ember); margin: 0 0 14px; }
+    footer ul { list-style: none; padding: 0; margin: 0; }
+    footer ul li { margin-bottom: 8px; }
+    footer ul li a { font-size: 14px; color: var(--mist); }
+    footer ul li a:hover { color: var(--bone); }
+    footer .meta { font-size: 13px; color: var(--steel); margin-top: 12px; max-width: 36ch; }
+    footer .legal { font-size: 12px; color: var(--steel); margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--line-dark); }
+    @media (max-width: 720px) { footer .grid { grid-template-columns: 1fr 1fr; gap: 28px; } }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site">
+    <div class="wrap">
+      <a href="/" aria-label="ThermaForge Partners home">
+        <img src="/assets/wordmark-dark.svg" alt="ThermaForge Partners" class="brand" />
+      </a>
+      <nav>
+        <a href="#how-we-work">How we work</a>
+        <a href="#pricing">Engagements</a>
+        <a href="#faq">FAQ</a>
+        <a href="mailto:zach@thermaforgepartners.com?subject=ThermaForge inquiry" class="btn btn-ember">Talk to Zach</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap">
+      <span class="stamp"><span class="dot"></span>Now taking 6 client engagements for 2026</span>
+      <h1>An operating partner for HVAC owners <em>scaling toward exit.</em></h1>
+      <p class="lead">
+        Most $5M-and-up HVAC shops don't need another vendor. They need a partner in the
+        seat — running ops, filling the lead pipeline, building the team, and getting the
+        books in shape for the next chapter. That's what ThermaForge does. We take six
+        clients a year. The 7th has to wait.
+      </p>
+      <div class="cta-row">
+        <a href="mailto:zach@thermaforgepartners.com?subject=ThermaForge inquiry" class="btn btn-ember">Talk to Zach</a>
+        <a href="#how-we-work" class="btn btn-ghost">See how we work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Founders -->
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <p class="eyebrow">Who we are</p>
+      <h2>Two operators. One seat at your table.</h2>
+      <div class="founders">
+        <div class="founder">
+          <p class="role">Founding Partner</p>
+          <h3>Zach Rains</h3>
+          <p class="credential">20+ years in HVAC operations. Multiple $10M+ shop turnarounds.</p>
+          <p>
+            Zach runs the operating side of every engagement — sitting with your dispatcher,
+            walking your warehouse, reviewing your AR aging, fixing the ten things that quietly
+            cost you a point of margin every month. He's been the ops leader in the seat at
+            shops doing $5M, $15M, and $30M. He knows what the difference looks like.
+          </p>
+        </div>
+        <div class="founder">
+          <p class="role">Operating Partner — Systems & AI</p>
+          <h3>Samuel Carson</h3>
+          <p class="credential">Founder, Carson Systems. Builder of Routebook, Frontline, Plymouth.</p>
+          <p>
+            Samuel runs the systems side. He's the founder of Carson Systems — the platform
+            company behind Routebook (the HVAC ERP every ThermaForge client deploys), Frontline
+            (24/7 AI call coverage), and the multi-platform content engine. Whatever
+            infrastructure your shop is missing, he's already built it.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="hairline" />
+
+  <!-- How we work -->
+  <section id="how-we-work" class="section section-bone">
+    <div class="wrap">
+      <p class="eyebrow">How we work</p>
+      <h2>Operating-partner work, not consulting.</h2>
+      <p class="lead">
+        We're in the business. Not in the deck. Not in the slide review. In the business —
+        on the dispatch board, in the AR aging, on the recruiting calls, at the weekly P&amp;L
+        review. Annual engagements, six clients a year, capped on purpose so the operating
+        partner attention is real.
+      </p>
+      <div class="work-grid">
+        <div class="work-card">
+          <span class="num">01</span>
+          <h3>Operations uplift</h3>
+          <p>
+            Dispatch flow, callback rate, first-time-fix, technician utilization, callback
+            recovery, AR aging over 60 days. The operational levers that move EBITDA. We name
+            the number and we move it month over month.
+          </p>
+        </div>
+        <div class="work-card">
+          <span class="num">02</span>
+          <h3>Lead generation that fills your PMs</h3>
+          <p>
+            Search-intent pipeline that surfaces homeowners actively looking for system
+            replacement, not random clicks. We build it, route it, and feed it directly to your
+            project managers' phones. Volume scales with your install capacity, not a billboard.
+          </p>
+        </div>
+        <div class="work-card">
+          <span class="num">03</span>
+          <h3>Team-building &amp; recruiting</h3>
+          <p>
+            Tech recruiting is the #1 ceiling on growth above $5M. We help you build a real
+            employer brand, structure pay and progression, and run the recruiting funnel like a
+            sales funnel. The shops that scale past $10M are the ones that solve this.
+          </p>
+        </div>
+        <div class="work-card">
+          <span class="num">04</span>
+          <h3>Pre-PE positioning &amp; recap-readiness</h3>
+          <p>
+            If you're 24–48 months from a recap or sale, every operational decision now is a
+            valuation decision. Clean books, strong tech retention, documented systems, and
+            real EBITDA quality. We position the company so the multiple finds you, not the
+            other way around.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="hairline" />
+
+  <!-- Platform stack -->
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">The platform stack we deploy</p>
+      <h2>The infrastructure is already built.<br/>It comes with the engagement.</h2>
+      <p class="lead">
+        ThermaForge clients deploy a Carson Systems platform stack at no incremental cost —
+        Routebook ERP in every engagement, plus the full demand engine on the Scale tier.
+        Carson Systems builds and licenses the platforms; ThermaForge operates them inside
+        your business.
+      </p>
+      <div class="stack-list">
+
+        <div class="stack-row">
+          <div>
+            <div class="product-name">Routebook<span class="src">Carson Systems product</span></div>
+          </div>
+          <div class="desc">Field service ERP — dispatch, jobs, invoicing, AR, inventory, real job-cost P&amp;L. Replaces ServiceTitan, FieldEdge, or whatever stitched-together stack you're running today.</div>
+          <div class="tier-badge both">Operate + Scale</div>
+        </div>
+
+        <div class="stack-row">
+          <div>
+            <div class="product-name">Search-intent lead pipeline<span class="src">ThermaForge proprietary</span></div>
+          </div>
+          <div class="desc">Surfacing homeowners actively researching system replacement. Routed through automation and qualified before it hits your PMs.</div>
+          <div class="tier-badge both">Operate + Scale</div>
+        </div>
+
+        <div class="stack-row">
+          <div>
+            <div class="product-name">Frontline AI<span class="src">Carson Systems product</span></div>
+          </div>
+          <div class="desc">24/7 AI call coverage. Books appointments, captures lead data, transfers urgents — every after-hours call answered. No more missed dispatch on a Friday at 6:42pm.</div>
+          <div class="tier-badge scale">Scale only</div>
+        </div>
+
+        <div class="stack-row">
+          <div>
+            <div class="product-name">Multi-platform content engine<span class="src">Carson Systems product</span></div>
+          </div>
+          <div class="desc">Content production + scheduled deployment to X, Instagram, TikTok, Reddit, and YouTube Shorts. Owner-voice content, not stock-photo SaaS posts. Tech recruiting and customer trust both come from this.</div>
+          <div class="tier-badge scale">Scale only</div>
+        </div>
+
+        <div class="stack-row">
+          <div>
+            <div class="product-name">Echo Clip video production<span class="src">Carson Systems product</span></div>
+          </div>
+          <div class="desc">Short-form video for the social channels. Tech-on-the-truck content, install walkthroughs, owner-voice clips. Scales without you needing a videographer on payroll.</div>
+          <div class="tier-badge scale">Scale only</div>
+        </div>
+
+        <div class="stack-row">
+          <div>
+            <div class="product-name">Community engagement<span class="src">Carson Systems product</span></div>
+          </div>
+          <div class="desc">Reddit and X presence in the threads where homeowners ask HVAC questions. Approval-gated, owner-voice, drives organic trust over months — not days.</div>
+          <div class="tier-badge scale">Scale only</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="hairline" />
+
+  <!-- Pricing -->
+  <section id="pricing" class="section section-bone">
+    <div class="wrap">
+      <p class="eyebrow">Engagements</p>
+      <h2>Two tiers. One seat at the table either way.</h2>
+      <p class="lead">
+        Both tiers are annual engagements with a six-client cap across the firm. Equity is
+        negotiated per engagement and aligned with the recap or exit horizon. Operate is the
+        right entry point for most $5M–$15M shops. Scale is for owners pushing past $10M
+        who want to compress brand and recruiting on the same timeline as ops.
+      </p>
+      <div class="tiers">
+
+        <!-- Operate -->
+        <div class="tier-card">
+          <span class="tier-name">Operating partner</span>
+          <h3>ThermaForge Operate</h3>
+          <div class="pricing-line">
+            <span class="price-num">$8,000</span>
+            <span class="price-period">/ mo + equity</span>
+          </div>
+          <div class="price-meta">annual engagement · 6-client cap (firm-wide) · platform license included</div>
+          <p class="body">
+            The core ThermaForge engagement — operating partner attention, search-intent
+            lead generation, and the Routebook ERP underneath everything you do.
+          </p>
+          <ul>
+            <li>Operating partner work — Zach Rains</li>
+            <li>Systems &amp; AI partner — Samuel Carson</li>
+            <li>Search-intent lead pipeline → your PMs</li>
+            <li>Routebook field service ERP, fully included</li>
+            <li>Profit-improvement &amp; team-building playbook</li>
+            <li>Pre-PE positioning &amp; recap readiness</li>
+          </ul>
+          <div class="fit">
+            <span class="fit-label">Best fit</span>
+            $5M–$15M shops needing operational lift and a steady book of qualified calls.
+          </div>
+          <div class="cta">
+            <a href="mailto:zach@thermaforgepartners.com?subject=ThermaForge Operate inquiry" class="btn btn-bone">Talk to Zach</a>
+          </div>
+        </div>
+
+        <!-- Scale -->
+        <div class="tier-card featured">
+          <span class="tier-name">Operating partner + demand engine</span>
+          <h3>ThermaForge Scale</h3>
+          <div class="pricing-line">
+            <span class="price-num">$14,500</span>
+            <span class="price-period">/ mo + equity</span>
+          </div>
+          <div class="price-meta">annual engagement · 6-client cap (firm-wide) · entire platform stack included</div>
+          <p class="body">
+            Everything in Operate, plus the Carson Systems demand engine — 24/7 AI call
+            coverage, multi-platform content, short-form video, and community presence.
+          </p>
+          <ul>
+            <li>Everything in ThermaForge Operate</li>
+            <li class="adds-on">Frontline AI — 24/7 call coverage + booking</li>
+            <li class="adds-on">Multi-platform content engine — X, Instagram, TikTok, Reddit, YouTube Shorts</li>
+            <li class="adds-on">Echo Clip short-form video production</li>
+            <li class="adds-on">Community engagement — Reddit + X, approval-gated</li>
+            <li class="adds-on">Quarterly brand-asset refresh</li>
+          </ul>
+          <div class="fit">
+            <span class="fit-label">Best fit</span>
+            $10M+ shops scaling brand presence and tech recruiting alongside ops, or
+            positioning for a near-term recap or sale.
+          </div>
+          <div class="cta">
+            <a href="mailto:zach@thermaforgepartners.com?subject=ThermaForge Scale inquiry" class="btn btn-ember">Talk to Zach</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="hairline" />
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="wrap">
+      <p class="eyebrow">FAQ</p>
+      <h2>Honest answers.</h2>
+      <div class="faq" style="margin-top: 32px;">
+        <details>
+          <summary>Why only six clients a year?</summary>
+          <p>Operating-partner work is real attention — weekly reviews, on-site visits,
+             dispatch sit-ins, monthly P&amp;L deep-dives. Past six clients, the attention
+             dilutes. Past dilution, you're a consultant, not a partner. We'd rather wait-list
+             than weaken the work.</p>
+        </details>
+        <details>
+          <summary>Why equity?</summary>
+          <p>Equity aligns the engagement with the actual outcome. Operating-partner work that
+             pays only on retainer optimizes for the retainer. Operating-partner work that pays
+             on equity optimizes for the recap multiple. The owner and ThermaForge end up in
+             the same boat. Specific terms get negotiated per engagement against the recap
+             timeline.</p>
+        </details>
+        <details>
+          <summary>What's the difference between Operate and Scale?</summary>
+          <p>Operate is the operating-partner engagement: ops uplift, lead-gen pipeline, and
+             Routebook ERP. Right for $5M–$15M shops needing their phones ringing and their
+             books cleaned up. Scale adds the full Carson Systems demand engine — 24/7 AI call
+             coverage, multi-platform content, short-form video, and approval-gated community
+             engagement. Right for $10M+ shops scaling brand and tech recruiting alongside ops,
+             or positioning for a near-term recap or sale.</p>
+        </details>
+        <details>
+          <summary>How is this different from a marketing agency or fractional CMO?</summary>
+          <p>A marketing agency runs your ads. A fractional CMO writes your strategy deck.
+             We sit in your dispatch meeting on Tuesday, look at your AR aging on Wednesday,
+             and review your tech turnover on Friday. The marketing flows out of fixing the
+             operations, not the other way around. If your operations are broken, the best
+             marketing in the world makes it worse — more calls into a broken intake.</p>
+        </details>
+        <details>
+          <summary>Is Routebook required?</summary>
+          <p>Effectively yes. Operating-partner work depends on real visibility into the
+             business — dispatch, AR aging, job costing, P&amp;L. Stitched-together tools and
+             three spreadsheets don't give us what we need. Routebook is the platform layer
+             that lets us actually do the work. It's included in the engagement at no extra
+             cost.</p>
+        </details>
+        <details>
+          <summary>Is this Carson Systems or ThermaForge?</summary>
+          <p>It's ThermaForge — a separate LLC. Carson Systems is the platform company that
+             licenses Routebook, Frontline, and the content engine to ThermaForge for inclusion
+             in client engagements. Same operating partners (Zach + Samuel), two distinct
+             companies, clear lines on the IP and the books.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA block -->
+  <section class="cta-block">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Ready to talk?</p>
+        <h2>Six engagements a year. Two left for 2026.</h2>
+      </div>
+      <div class="row">
+        <a href="mailto:zach@thermaforgepartners.com?subject=ThermaForge inquiry" class="btn btn-ember">Talk to Zach</a>
+        <a href="mailto:samuel@carson.systems?subject=ThermaForge — systems &amp; AI" class="btn btn-ghost">Talk to Samuel</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap">
+      <div class="grid">
+        <div>
+          <img src="/assets/wordmark-dark.svg" alt="ThermaForge Partners" class="brand" style="height: 36px; margin-bottom: 16px;" />
+          <p class="meta">A fractional operating-partner firm for HVAC owners scaling toward recap or sale. Annual engagements, six clients a year.</p>
+        </div>
+        <div>
+          <h4>Engagements</h4>
+          <ul>
+            <li><a href="#pricing">Operate</a></li>
+            <li><a href="#pricing">Scale</a></li>
+            <li><a href="#how-we-work">How we work</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Platform stack</h4>
+          <ul>
+            <li><a href="https://runroutebook.com">Routebook</a></li>
+            <li><a href="https://frontline.carson.systems">Frontline AI</a></li>
+            <li><a href="https://carson.systems">Carson Systems</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Talk to us</h4>
+          <ul>
+            <li><a href="mailto:zach@thermaforgepartners.com">zach@thermaforgepartners.com</a></li>
+            <li><a href="mailto:samuel@carson.systems">samuel@carson.systems</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="legal">
+        © 2026 ThermaForge Partners LLC. Routebook, Frontline, and the Carson Systems content engine are products of Carson Systems LLC, deployed under license inside ThermaForge engagements.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

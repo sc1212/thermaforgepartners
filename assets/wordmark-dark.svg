@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 56" role="img" aria-label="ThermaForge Partners">
+  <!-- ember square accent -->
+  <rect x="0" y="18" width="20" height="20" fill="#E8602B"/>
+  <!-- wordmark -->
+  <text x="32" y="34"
+        font-family="Inter, system-ui, sans-serif"
+        font-size="22" font-weight="700"
+        letter-spacing="1.2"
+        fill="#F5F5F0">THERMAFORGE</text>
+  <text x="32" y="50"
+        font-family="Inter, system-ui, sans-serif"
+        font-size="11" font-weight="500"
+        letter-spacing="3.4"
+        fill="#9A9DA3">PARTNERS</text>
+</svg>

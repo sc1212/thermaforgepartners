@@ -129,12 +129,21 @@ em { font-style: italic; color: var(--tf-orange); }
 .tf-nav a:hover { color: var(--tf-text); }
 .tf-nav a.active { color: var(--tf-orange); border-bottom-color: var(--tf-orange); }
 
-.tf-nav-cta {
-  background: var(--tf-orange); color: var(--tf-bg) !important;
-  padding: 9px 18px; border-radius: 4px; font-weight: 600;
+/* Specificity bump: .tf-nav a (0,1,1) was beating .tf-nav-cta (0,1,0)
+   on padding-bottom — Apply text was shifted toward the top of the box. */
+.tf-nav a.tf-nav-cta {
+  background: var(--tf-orange);
+  color: var(--tf-bg) !important;
+  padding: 9px 18px !important;
+  border-radius: 4px;
+  font-weight: 600;
   border-bottom: none !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
 }
-.tf-nav-cta:hover { background: var(--tf-orange-bright); color: var(--tf-bg) !important; }
+.tf-nav a.tf-nav-cta:hover { background: var(--tf-orange-bright); color: var(--tf-bg) !important; }
 
 @media (max-width: 768px) {
   .tf-nav { gap: 12px; padding: 14px 16px; flex-wrap: wrap; }

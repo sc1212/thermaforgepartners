@@ -70,11 +70,57 @@ em { font-style: italic; color: var(--tf-orange); }
 .tf-nav-logo {
   display: flex; align-items: center; gap: 12px;
   font-family: 'Inter', system-ui, sans-serif; font-weight: 700;
-  font-size: 0.95rem; letter-spacing: 0.04em;
   margin-right: auto;
 }
-.tf-nav-logo img { width: 28px; height: 28px; }
+.tf-nav-logo img { width: 36px; height: 36px; flex: none; }
 .tf-nav-logo:hover { color: var(--tf-orange); }
+
+/* THERMAFORGE on top, PARTNERS underneath, copper-letter-spaced */
+.tf-wordmark {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  gap: 5px;
+}
+.tf-wordmark-main {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--tf-text);
+}
+.tf-wordmark-main .tf-a {
+  color: var(--tf-orange);
+}
+.tf-wordmark-sub {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.36em;
+  color: var(--tf-orange);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.tf-wordmark-sub::before,
+.tf-wordmark-sub::after {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 1px;
+  background: var(--tf-orange);
+  flex: none;
+}
+@media (max-width: 480px) {
+  .tf-wordmark-main { font-size: 0.86rem; letter-spacing: 0.06em; }
+  .tf-wordmark-sub { font-size: 0.52rem; letter-spacing: 0.28em; }
+  .tf-wordmark-sub::before,
+  .tf-wordmark-sub::after { width: 8px; }
+  .tf-nav-logo img { width: 30px; height: 30px; }
+}
+
+/* Footer wordmark scales the same pattern */
+.tf-footer-brand .tf-wordmark-main { font-size: 1.1rem; }
+.tf-footer-brand .tf-wordmark-sub { font-size: 0.62rem; }
+.tf-footer-brand .tf-nav-logo img { width: 42px; height: 42px; }
 
 .tf-nav a {
   font-size: 0.92rem; color: var(--tf-text-muted);
@@ -92,7 +138,7 @@ em { font-style: italic; color: var(--tf-orange); }
 
 @media (max-width: 768px) {
   .tf-nav { gap: 12px; padding: 14px 16px; flex-wrap: wrap; }
-  .tf-nav-logo span { font-size: 0.8rem; }
+  /* mobile wordmark sizes handled in .tf-wordmark-main / .tf-wordmark-sub @ 480px */
   .tf-nav a:not(.tf-nav-cta) { font-size: 0.82rem; }
 }
 

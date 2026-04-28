@@ -11,7 +11,7 @@
 <link rel="icon" href="/assets/tf-monogram.png" type="image/png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
 <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
@@ -47,7 +47,65 @@
           <p>The HVAC ERP every ThermaForge client deploys. Dispatch, jobs, invoicing, AR, inventory, real job-cost P&amp;L. Replaces ServiceTitan, FieldEdge, or whatever stitched-together stack you're running today. Migration handled by the engagement at no extra cost.</p>
           <p>Routebook is the operational visibility layer that lets the operating partner actually do the work. Without it, ops uplift is guesswork.</p>
         </div>
-        <div class="tf-screenshot-placeholder">[ Routebook dashboard preview ]</div>
+        <div class="tf-screenshot">
+          <div class="tf-screenshot-chrome">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="label">routebook · dashboard · this week</span>
+          </div>
+          <div class="tf-screenshot-body">
+            <div class="tf-mock-dashboard">
+              <div class="tf-mock-kpi">
+                <div class="kpi-label">Revenue WTD</div>
+                <div class="kpi-value">$ 84.2K</div>
+                <div class="kpi-delta up">▲ 12.4%</div>
+              </div>
+              <div class="tf-mock-kpi">
+                <div class="kpi-label">Job Margin</div>
+                <div class="kpi-value">38.6%</div>
+                <div class="kpi-delta up">▲ 2.1 pts</div>
+              </div>
+              <div class="tf-mock-kpi">
+                <div class="kpi-label">AR &gt; 60</div>
+                <div class="kpi-value">$ 19.8K</div>
+                <div class="kpi-delta down">▼ 8.0%</div>
+              </div>
+              <div class="tf-mock-dispatch">
+                <div class="tf-mock-dispatch-row">
+                  <div class="cell h"></div>
+                  <div class="cell h">8a</div>
+                  <div class="cell h">10a</div>
+                  <div class="cell h">12p</div>
+                  <div class="cell h">2p</div>
+                  <div class="cell h">4p</div>
+                </div>
+                <div class="tf-mock-dispatch-row">
+                  <div class="cell t">DAN</div>
+                  <div class="cell j">Hilltop</div>
+                  <div class="cell j">Hilltop</div>
+                  <div class="cell"></div>
+                  <div class="cell j2">5th Ave</div>
+                  <div class="cell j2">5th Ave</div>
+                </div>
+                <div class="tf-mock-dispatch-row">
+                  <div class="cell t">RIO</div>
+                  <div class="cell"></div>
+                  <div class="cell j">Maple</div>
+                  <div class="cell j">Maple</div>
+                  <div class="cell"></div>
+                  <div class="cell j2">Tunnel</div>
+                </div>
+                <div class="tf-mock-dispatch-row">
+                  <div class="cell t">MIA</div>
+                  <div class="cell j">Oakwood</div>
+                  <div class="cell"></div>
+                  <div class="cell"></div>
+                  <div class="cell j">Brookline</div>
+                  <div class="cell j">Brookline</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <a class="tf-ext-link" href="https://runroutebook.com" target="_blank" rel="noopener">Visit Routebook <span class="ext-link-arrow">↗</span></a>
       </article>
 
@@ -59,7 +117,35 @@
           <p>The pipeline that surfaces homeowners actively searching for system replacement, not random clicks from a billboard buy. Routed through automation and qualified before it hits your project managers' phones.</p>
           <p>Volume scales with your install capacity, not a budget cap. Every lead has signal. Most agencies sell volume; this sells intent.</p>
         </div>
-        <div class="tf-screenshot-placeholder">[ Pipeline flow diagram ]</div>
+        <div class="tf-screenshot">
+          <div class="tf-screenshot-chrome">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="label">search-intent pipeline · live flow</span>
+          </div>
+          <div class="tf-screenshot-body">
+            <div class="tf-mock-pipeline">
+              <div class="tf-pipeline-stage">
+                <div class="icon">SIGNAL</div>
+                <div class="body">Homeowner researching system replacement<small>browse, comparison, financing</small></div>
+              </div>
+              <div class="tf-pipeline-arrow"></div>
+              <div class="tf-pipeline-stage">
+                <div class="icon">CAPTURE</div>
+                <div class="body">Surface upstream of Google auction<small>before "HVAC near me" search</small></div>
+              </div>
+              <div class="tf-pipeline-arrow"></div>
+              <div class="tf-pipeline-stage active">
+                <div class="icon">QUALIFY</div>
+                <div class="body">Service area + ticket band match<small>auto-filtered, scored</small></div>
+              </div>
+              <div class="tf-pipeline-arrow"></div>
+              <div class="tf-pipeline-stage">
+                <div class="icon">ROUTE</div>
+                <div class="body">Sent to PM with context<small>warm lead, research notes attached</small></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </article>
 
       <article class="tf-platform-card">
@@ -70,7 +156,35 @@
           <p>Every call answered, after-hours and Sunday afternoon. Books appointments, captures lead data, transfers urgents. No more missed dispatch on a Friday at 6:42pm — when the call comes in, Frontline picks up and books the truck.</p>
           <p>Logs all call data into Routebook automatically. The AI receptionist that pays for itself the first time it books a $12K install on a Saturday night.</p>
         </div>
-        <div class="tf-screenshot-placeholder">[ Frontline call interface ]</div>
+        <div class="tf-screenshot">
+          <div class="tf-screenshot-chrome">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="label">frontline · live call · 6:42pm friday</span>
+          </div>
+          <div class="tf-screenshot-body">
+            <div class="tf-mock-call">
+              <div class="tf-call-header">
+                <div class="tf-call-avatar">J</div>
+                <div class="tf-call-meta">
+                  <div class="name">Jennifer · AI receptionist</div>
+                  <div class="sub">Inbound · (615) 555‑0142 · Hilltop Dental</div>
+                </div>
+                <div class="tf-call-status">Live</div>
+              </div>
+              <div class="tf-call-transcript">
+                <div class="line"><span class="speaker cust">Caller</span><span class="text">"Hi, our front-office unit just stopped cooling. We've got a busy Saturday tomorrow."</span></div>
+                <div class="line"><span class="speaker">Jennifer</span><span class="text">"Got it — that's the 5-ton Carrier RTU on the roof, right? I can get a tech out tomorrow at 9:00 AM. Want me to put it on the board?"</span></div>
+                <div class="line"><span class="speaker cust">Caller</span><span class="text">"Yes please."</span></div>
+                <div class="line"><span class="speaker">Jennifer</span><span class="text">"Booked with Dan — he's familiar with your unit. Confirmation text sent. Anything else?"</span></div>
+              </div>
+              <div class="tf-call-actions">
+                <div class="tf-call-action primary">→ Booked into routebook</div>
+                <div class="tf-call-action">Recording attached</div>
+                <div class="tf-call-action">Lead captured</div>
+              </div>
+            </div>
+          </div>
+        </div>
         <a class="tf-ext-link" href="https://frontline.carson.systems" target="_blank" rel="noopener">Visit Frontline <span class="ext-link-arrow">↗</span></a>
       </article>
 

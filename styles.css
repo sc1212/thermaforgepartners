@@ -32,7 +32,7 @@ a:hover { color: var(--tf-orange); }
 img { max-width: 100%; display: block; }
 
 h1, h2, h3, h4 {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: 'Inter', system-ui, sans-serif;
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: -0.02em;
@@ -69,7 +69,7 @@ em { font-style: italic; color: var(--tf-orange); }
 
 .tf-nav-logo {
   display: flex; align-items: center; gap: 12px;
-  font-family: 'Fraunces', serif; font-weight: 700;
+  font-family: 'Inter', system-ui, sans-serif; font-weight: 700;
   font-size: 0.95rem; letter-spacing: 0.04em;
   margin-right: auto;
 }
@@ -148,7 +148,7 @@ em { font-style: italic; color: var(--tf-orange); }
 
 .tf-eyebrow {
   display: inline-block;
-  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-family: 'Inter', monospace;
   font-size: 0.78rem; letter-spacing: 0.15em;
   color: var(--tf-orange); margin-bottom: 24px;
   padding: 4px 10px; border: 1px solid var(--tf-orange);
@@ -181,7 +181,7 @@ em { font-style: italic; color: var(--tf-orange); }
 
 /* === SECTION HEADERS === */
 .tf-section-head {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Inter', monospace;
   font-size: 0.78rem; letter-spacing: 0.15em;
   color: var(--tf-orange); margin-bottom: 12px;
   text-transform: uppercase;
@@ -202,7 +202,7 @@ em { font-style: italic; color: var(--tf-orange); }
 .tf-detail-block:hover { border-color: var(--tf-orange); transform: translateY(-2px); }
 .tf-block-num {
   display: block;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Inter', monospace;
   font-size: 0.85rem; color: var(--tf-orange);
   margin-bottom: 16px; letter-spacing: 0.1em;
 }
@@ -219,13 +219,13 @@ em { font-style: italic; color: var(--tf-orange); }
   padding: 40px;
 }
 .tf-card-tag {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Inter', monospace;
   font-size: 0.78rem; letter-spacing: 0.12em;
   color: var(--tf-orange); margin-bottom: 16px;
   text-transform: uppercase;
 }
 .tf-partner-card h3 {
-  font-family: 'Fraunces', serif;
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 1.8rem; margin-bottom: 16px;
 }
 .tf-partner-card .tf-credibility {
@@ -247,7 +247,7 @@ em { font-style: italic; color: var(--tf-orange); }
 }
 .tf-platform-card .tf-tier-badge {
   display: inline-block;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Inter', monospace;
   font-size: 0.7rem; letter-spacing: 0.1em;
   padding: 4px 8px; border: 1px solid var(--tf-border);
   color: var(--tf-text-muted); margin-bottom: 16px;
@@ -268,7 +268,7 @@ em { font-style: italic; color: var(--tf-orange); }
   border: 1px dashed var(--tf-border);
   padding: 32px 16px; margin: 16px 0;
   text-align: center; font-size: 0.82rem; color: var(--tf-text-dim);
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Inter', monospace;
 }
 
 /* === PRICING TIERS === */
@@ -285,17 +285,17 @@ em { font-style: italic; color: var(--tf-orange); }
 .tf-tier-card:hover { border-color: var(--tf-orange); }
 .tf-tier-card.tf-tier-featured { border-color: var(--tf-orange); }
 .tf-tier-tag {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Inter', monospace;
   font-size: 0.78rem; letter-spacing: 0.1em;
   color: var(--tf-orange); margin-bottom: 16px;
   text-transform: uppercase;
 }
 .tf-tier-card h3 {
-  font-family: 'Fraunces', serif;
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 1.85rem; margin-bottom: 16px;
 }
 .tf-price {
-  font-family: 'Fraunces', serif;
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 2.6rem; font-weight: 700;
   color: var(--tf-orange); line-height: 1;
 }
@@ -342,7 +342,7 @@ em { font-style: italic; color: var(--tf-orange); }
 }
 .tf-week-label {
   display: inline-block;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Inter', monospace;
   font-size: 0.82rem; color: var(--tf-orange);
   letter-spacing: 0.1em; margin-bottom: 8px;
 }
@@ -356,7 +356,7 @@ em { font-style: italic; color: var(--tf-orange); }
   text-align: center;
 }
 .tf-pullquote blockquote {
-  font-family: 'Fraunces', serif;
+  font-family: 'Inter', system-ui, sans-serif;
   font-style: italic;
   font-size: clamp(1.4rem, 3vw, 2.2rem);
   line-height: 1.4;
@@ -381,7 +381,7 @@ em { font-style: italic; color: var(--tf-orange); }
   border-bottom: 1px solid var(--tf-border);
 }
 .tf-comparison-table th {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Inter', monospace;
   font-size: 0.78rem; letter-spacing: 0.06em;
   color: var(--tf-text-muted); text-transform: uppercase;
   font-weight: 500;
@@ -441,7 +441,7 @@ em { font-style: italic; color: var(--tf-orange); }
   background: var(--tf-bg-alt);
 }
 .tf-form legend {
-  font-family: 'Fraunces', serif;
+  font-family: 'Inter', system-ui, sans-serif;
   color: var(--tf-orange);
   padding: 0 12px; font-size: 1.05rem;
 }
@@ -520,4 +520,431 @@ a:hover .ext-link-arrow { opacity: 1; transform: translate(2px, -2px); }
   height: 2px;
   background: linear-gradient(90deg, transparent, var(--tf-orange), transparent);
   margin: 0 auto;
+}
+
+/* ── Platform stack — full-width expandable rows (homepage) ───────────
+   Replaces the 3-col grid that left ugly blank space when one card
+   expanded. Each card is now a full-width row; expansion slides down
+   in place, never reflowing siblings. */
+.tf-platform-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin-top: 48px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tf-platform-card-expand {
+  background: var(--tf-bg-alt);
+  border: 1px solid var(--tf-border);
+  transition: border-color 0.2s ease, background 0.2s ease;
+  position: relative;
+}
+.tf-platform-card-expand:hover { border-color: var(--tf-orange); }
+.tf-platform-card-expand[open] {
+  border-color: var(--tf-orange);
+  background: var(--tf-bg-card);
+}
+.tf-platform-card-summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 22px 28px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 22px;
+  align-items: center;
+}
+.tf-platform-card-summary::-webkit-details-marker { display: none; }
+.tf-platform-card-summary .tf-tier-badge {
+  display: inline-block;
+  font-family: 'Inter', monospace;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 6px 10px;
+  border: 1px solid var(--tf-border);
+  color: var(--tf-text-muted);
+  margin: 0;
+  width: fit-content;
+  white-space: nowrap;
+  align-self: center;
+}
+.tf-platform-card-summary .tf-tier-badge.tf-scale-only,
+.tf-platform-card-summary .tf-tier-badge:has(+ * + h3) {
+  /* default already handled */
+}
+.tf-platform-card-expand .tf-tier-badge.tf-scale-only,
+.tf-platform-card-expand .tf-tier-badge[class*="scale-only"] {
+  color: var(--tf-orange);
+  border-color: var(--tf-orange);
+}
+.tf-platform-card-summary h3 {
+  font-size: 1.15rem;
+  margin: 0 0 4px;
+  font-weight: 600;
+  color: var(--tf-text);
+}
+.tf-platform-card-summary .tf-summary-tag {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--tf-text-dim);
+  letter-spacing: 0;
+  margin-top: 2px;
+}
+.tf-platform-card-summary .tf-card-tagline {
+  font-size: 0.92rem;
+  color: var(--tf-text-muted);
+  margin: 0;
+  line-height: 1.45;
+}
+.tf-platform-card-summary .tf-expand-cue {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Inter', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: var(--tf-orange);
+  text-transform: uppercase;
+  align-self: center;
+  white-space: nowrap;
+}
+.tf-platform-card-summary .tf-cue-arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+  font-size: 0.9rem;
+}
+.tf-platform-card-expand[open] .tf-platform-card-summary .tf-cue-arrow {
+  transform: rotate(90deg);
+}
+.tf-platform-card-body {
+  padding: 0 28px 28px;
+  border-top: 1px solid var(--tf-border);
+  margin-top: 0;
+  padding-top: 24px;
+  animation: tfExpandFade 0.3s ease;
+}
+.tf-platform-card-body h4 {
+  margin-top: 18px;
+  margin-bottom: 6px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--tf-text);
+}
+.tf-platform-card-body h4:first-child { margin-top: 0; }
+.tf-platform-card-body p {
+  font-size: 0.96rem;
+  line-height: 1.6;
+  color: var(--tf-text-muted);
+  margin: 0 0 8px;
+}
+.tf-platform-card-body .tf-ext-link {
+  display: inline-block;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--tf-border);
+  font-size: 0.88rem;
+  color: var(--tf-orange);
+  font-weight: 500;
+}
+.tf-moat-callout {
+  margin: 20px 0 4px;
+  padding: 20px 24px;
+  background: rgba(244, 160, 21, 0.06);
+  border-left: 2px solid var(--tf-orange);
+  border-radius: 0 4px 4px 0;
+}
+.tf-moat-callout .tf-moat-label {
+  display: block;
+  font-family: 'Inter', monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--tf-orange);
+  margin-bottom: 8px;
+}
+.tf-moat-callout h4 { margin-top: 0; font-size: 1rem; color: var(--tf-text); }
+.tf-moat-callout p:last-child { margin-bottom: 0; }
+@keyframes tfExpandFade {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (max-width: 720px) {
+  .tf-platform-card-summary {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 18px 20px;
+  }
+  .tf-platform-card-summary .tf-tier-badge { justify-self: start; }
+  .tf-platform-card-summary .tf-expand-cue { justify-self: start; }
+  .tf-platform-card-body { padding: 16px 20px 22px; }
+}
+
+/* ── Platform.html visuals — real CSS-built mockups, not placeholders ── */
+.tf-screenshot {
+  background: var(--tf-bg);
+  border: 1px solid var(--tf-border);
+  border-radius: 6px;
+  padding: 0;
+  margin: 18px 0;
+  overflow: hidden;
+  position: relative;
+}
+.tf-screenshot-chrome {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  background: var(--tf-bg-card);
+  border-bottom: 1px solid var(--tf-border);
+}
+.tf-screenshot-chrome .dot {
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--tf-border);
+}
+.tf-screenshot-chrome .dot:nth-child(1) { background: #5a4a4a; }
+.tf-screenshot-chrome .dot:nth-child(2) { background: #5a554a; }
+.tf-screenshot-chrome .dot:nth-child(3) { background: #4a5a4a; }
+.tf-screenshot-chrome .label {
+  margin-left: 12px;
+  font-family: 'Inter', monospace;
+  font-size: 0.7rem;
+  color: var(--tf-text-dim);
+  letter-spacing: 0.04em;
+}
+.tf-screenshot-body { padding: 18px; }
+
+/* Routebook dashboard mock */
+.tf-mock-dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.tf-mock-kpi {
+  background: var(--tf-bg-card);
+  border: 1px solid var(--tf-border);
+  border-radius: 4px;
+  padding: 12px 14px;
+}
+.tf-mock-kpi .kpi-label {
+  font-family: 'Inter', monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  color: var(--tf-text-dim);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.tf-mock-kpi .kpi-value {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--tf-text);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+.tf-mock-kpi .kpi-delta {
+  font-size: 0.72rem;
+  margin-top: 4px;
+  font-variant-numeric: tabular-nums;
+}
+.tf-mock-kpi .kpi-delta.up { color: #4ade80; }
+.tf-mock-kpi .kpi-delta.down { color: #f87171; }
+.tf-mock-dispatch {
+  grid-column: 1 / -1;
+  margin-top: 6px;
+  background: var(--tf-bg-card);
+  border: 1px solid var(--tf-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.tf-mock-dispatch-row {
+  display: grid;
+  grid-template-columns: 64px repeat(5, 1fr);
+  gap: 1px;
+  background: var(--tf-border);
+}
+.tf-mock-dispatch-row .cell {
+  background: var(--tf-bg-card);
+  padding: 8px 6px;
+  font-family: 'Inter', monospace;
+  font-size: 0.66rem;
+  color: var(--tf-text-dim);
+}
+.tf-mock-dispatch-row .cell.h { color: var(--tf-orange); font-weight: 600; }
+.tf-mock-dispatch-row .cell.t { color: var(--tf-orange-bright); font-weight: 600; }
+.tf-mock-dispatch-row .cell.j {
+  background: rgba(244, 160, 21, 0.18);
+  color: #fff;
+  border-left: 2px solid var(--tf-orange);
+}
+.tf-mock-dispatch-row .cell.j2 {
+  background: rgba(74, 222, 128, 0.16);
+  color: #fff;
+  border-left: 2px solid #4ade80;
+}
+
+/* Pipeline flow diagram (SVG-based) */
+.tf-mock-pipeline {
+  background: var(--tf-bg-card);
+  border-radius: 6px;
+  padding: 22px 18px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+  gap: 8px;
+  align-items: center;
+}
+.tf-pipeline-stage {
+  background: var(--tf-bg);
+  border: 1px solid var(--tf-border);
+  border-radius: 4px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.tf-pipeline-stage .icon {
+  font-family: 'Inter', monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  color: var(--tf-orange);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.tf-pipeline-stage .body {
+  font-size: 0.8rem;
+  color: var(--tf-text);
+  font-weight: 500;
+  line-height: 1.3;
+}
+.tf-pipeline-stage .body small {
+  display: block;
+  font-size: 0.68rem;
+  color: var(--tf-text-dim);
+  font-weight: 400;
+  margin-top: 2px;
+}
+.tf-pipeline-stage.active {
+  border-color: var(--tf-orange);
+  background: rgba(244, 160, 21, 0.08);
+}
+.tf-pipeline-arrow {
+  width: 24px;
+  height: 2px;
+  background: var(--tf-border);
+  position: relative;
+}
+.tf-pipeline-arrow::after {
+  content: '';
+  position: absolute;
+  right: -4px; top: -3px;
+  width: 8px; height: 8px;
+  border-top: 2px solid var(--tf-border);
+  border-right: 2px solid var(--tf-border);
+  transform: rotate(45deg);
+}
+@media (max-width: 720px) {
+  .tf-mock-pipeline { grid-template-columns: 1fr; gap: 4px; }
+  .tf-pipeline-arrow {
+    width: 2px; height: 16px;
+    transform: rotate(0); margin: 0 auto;
+  }
+  .tf-pipeline-arrow::after {
+    right: -3px; top: auto; bottom: -4px;
+    transform: rotate(135deg);
+  }
+}
+
+/* Frontline call interface mock */
+.tf-mock-call {
+  background: var(--tf-bg-card);
+  border-radius: 6px;
+  padding: 18px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+.tf-call-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--tf-border);
+}
+.tf-call-avatar {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: rgba(244, 160, 21, 0.18);
+  border: 1px solid var(--tf-orange);
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--tf-orange);
+}
+.tf-call-meta { flex: 1; }
+.tf-call-meta .name { font-size: 0.92rem; font-weight: 600; color: var(--tf-text); }
+.tf-call-meta .sub { font-size: 0.74rem; color: var(--tf-text-dim); margin-top: 2px; }
+.tf-call-status {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 10px;
+  background: rgba(74, 222, 128, 0.12);
+  border: 1px solid rgba(74, 222, 128, 0.4);
+  border-radius: 999px;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #4ade80;
+  font-weight: 600;
+}
+.tf-call-status::before {
+  content: '';
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #4ade80;
+  box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.7);
+  animation: tfCallPulse 1.6s ease infinite;
+}
+@keyframes tfCallPulse {
+  0% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.5); }
+  100% { box-shadow: 0 0 0 8px rgba(74, 222, 128, 0); }
+}
+.tf-call-transcript {
+  font-family: 'Inter', monospace;
+  font-size: 0.8rem;
+  line-height: 1.55;
+  color: var(--tf-text-muted);
+}
+.tf-call-transcript .speaker {
+  display: inline-block;
+  width: 64px;
+  color: var(--tf-orange);
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+.tf-call-transcript .speaker.cust { color: var(--tf-text); }
+.tf-call-transcript .line { display: flex; gap: 12px; margin-bottom: 8px; }
+.tf-call-transcript .line .text { flex: 1; }
+.tf-call-actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--tf-border);
+}
+.tf-call-action {
+  background: var(--tf-bg);
+  border: 1px solid var(--tf-border);
+  border-radius: 4px;
+  padding: 10px 8px;
+  text-align: center;
+  font-size: 0.74rem;
+  color: var(--tf-text-muted);
+  font-weight: 500;
+}
+.tf-call-action.primary {
+  background: rgba(244, 160, 21, 0.12);
+  border-color: var(--tf-orange);
+  color: var(--tf-orange);
 }

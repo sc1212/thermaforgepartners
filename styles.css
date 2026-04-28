@@ -1549,3 +1549,16 @@ a:hover .ext-link-arrow { opacity: 1; transform: translate(2px, -2px); }
   [data-rb-dispatch] { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   [data-rb-dispatch] > div { min-width: 720px; }
 }
+
+/* ── Content engine 5-platform tile grid — mobile fallback ───────────── */
+@media (max-width: 760px) {
+  /* Find the 5-col platform tile grid (inside multi-platform content engine card) */
+  .tf-platform-card div[style*="grid-template-columns:repeat(5, 1fr)"] {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+@media (max-width: 480px) {
+  .tf-platform-card div[style*="grid-template-columns:repeat(5, 1fr)"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}

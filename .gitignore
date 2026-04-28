@@ -1,0 +1,13 @@
+# deploy.sh creates timestamped backup dirs; never commit them
+_backup_*/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Local artifacts
+*.log
+node_modules/

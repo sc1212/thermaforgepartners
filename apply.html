@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Apply — ThermaForge Partners</title>
+<meta name="description" content="Apply for a ThermaForge engagement. Six-client cap. Reviewed personally. Response within 48 business hours regardless of fit." />
+<link rel="icon" href="/assets/tf-monogram.png" type="image/png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+
+<nav class="tf-nav">
+  <a href="/" class="tf-nav-logo"><img src="/assets/tf-monogram.png" alt="" /><span>THERMAFORGE PARTNERS</span></a>
+  <a href="/operate">Operate</a>
+  <a href="/scale">Scale</a>
+  <a href="/platform">Platform</a>
+  <a href="/#faq">FAQ</a>
+  <a href="/apply" class="tf-nav-cta">Apply</a>
+</nav>
+
+<section class="tf-tier-hero" style="background-image: url('/assets/photos/timeline-financials.jpg');">
+  <span class="tf-eyebrow">[ APPLY ]</span>
+  <h1>Apply for an <em>engagement.</em></h1>
+  <p class="tf-tier-subhead">
+    Six-client cap across the firm. We'll know within one call whether it's a fit. Honest answers help us both. Submissions are reviewed personally — response within 48 business hours regardless of fit.
+  </p>
+</section>
+
+<section class="tf-section">
+  <div class="tf-container">
+
+    <form name="engagement-application" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks" class="tf-form">
+      <input type="hidden" name="form-name" value="engagement-application" />
+      <p class="hidden-honeypot"><label>Don't fill this out: <input name="bot-field" /></label></p>
+
+      <fieldset>
+        <legend>About your shop</legend>
+        <label>Company name *
+          <input type="text" name="company" required />
+        </label>
+        <label>Your name *
+          <input type="text" name="name" required />
+        </label>
+        <label>Email *
+          <input type="email" name="email" required />
+        </label>
+        <label>Phone
+          <input type="tel" name="phone" />
+        </label>
+        <label>Metro / service area *
+          <input type="text" name="metro" placeholder="e.g. Nashville TN, Atlanta GA" required />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Operational state</legend>
+        <label>Current annual revenue *
+          <select name="revenue" required>
+            <option value="">Select…</option>
+            <option>Under $3M</option>
+            <option>$3M–$5M</option>
+            <option>$5M–$10M</option>
+            <option>$10M–$15M</option>
+            <option>$15M–$25M</option>
+            <option>$25M–$50M</option>
+            <option>$50M+</option>
+          </select>
+        </label>
+        <label>Number of techs
+          <input type="number" name="techs" min="0" />
+        </label>
+        <label>Current ERP / dispatch tool
+          <input type="text" name="current_erp" placeholder="ServiceTitan, FieldEdge, spreadsheets, etc." />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Strategic context</legend>
+        <label>Recap or sale timeline
+          <select name="recap_timeline">
+            <option value="">Select…</option>
+            <option>Actively in process</option>
+            <option>Within 12 months</option>
+            <option>12–24 months</option>
+            <option>24–48 months</option>
+            <option>48+ months / no plan</option>
+            <option>Not considering</option>
+          </select>
+        </label>
+        <label>Tier of interest
+          <select name="tier">
+            <option value="">Select…</option>
+            <option>Operate ($8K/mo)</option>
+            <option>Scale ($14.5K/mo)</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>Top operational pain right now
+          <textarea name="pain" rows="5" placeholder="Recruiting bottleneck, dispatch chaos, AR drag, broken software, owner exhaustion, etc."></textarea>
+        </label>
+      </fieldset>
+
+      <button type="submit" class="tf-btn-primary">Submit application</button>
+      <p class="form-disclaimer">
+        Submissions are reviewed personally. We respond within 48 business hours regardless of fit. If we're not a match, we'll tell you why and recommend who is.
+      </p>
+    </form>
+
+  </div>
+</section>
+
+<footer class="tf-footer">
+  <div class="tf-footer-grid">
+    <div class="tf-footer-brand">
+      <a href="/" class="tf-nav-logo"><img src="/assets/tf-monogram.png" alt="" /><span>THERMAFORGE PARTNERS</span></a>
+      <p>A fractional operating-partner firm for HVAC owners scaling toward recap or sale.</p>
+    </div>
+    <div>
+      <h4>Engagements</h4>
+      <ul>
+        <li><a href="/operate">Operate — $8K/mo</a></li>
+        <li><a href="/scale">Scale — $14.5K/mo</a></li>
+        <li><a href="/platform">Platform stack</a></li>
+        <li><a href="/#how-we-work">How we work</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li><a href="/apply">Apply</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Platform stack</h4>
+      <ul>
+        <li><a href="https://runroutebook.com" target="_blank" rel="noopener">Routebook<span class="ext-link-arrow">↗</span></a></li>
+        <li><a href="https://frontline.carson.systems" target="_blank" rel="noopener">Frontline AI<span class="ext-link-arrow">↗</span></a></li>
+        <li><a href="https://carson.systems" target="_blank" rel="noopener">Carson Systems<span class="ext-link-arrow">↗</span></a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Talk to us</h4>
+      <ul>
+        <li><a href="mailto:zach@thermaforgepartners.com">zach@thermaforgepartners.com</a></li>
+        <li><a href="mailto:samuel@carson.systems">samuel@carson.systems</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="tf-footer-bottom">© 2026 ThermaForge Partners LLC.</div>
+</footer>
+
+<script>
+  (function(){
+    const path = window.location.pathname.replace(/\/$/, '') || '/';
+    document.querySelectorAll('.tf-nav a').forEach(a => {
+      const href = a.getAttribute('href');
+      if (href === path) a.classList.add('active');
+    });
+  })();
+</script>
+
+</body>
+</html>

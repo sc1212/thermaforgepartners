@@ -1,0 +1,73 @@
+# ThermaForge Partners — full context
+
+## Mission
+
+ThermaForge Partners exists because most HVAC shops between $5M and $25M in revenue plateau on the same three things: they cannot recruit technicians fast enough, their dispatch and AR systems leak revenue, and their owners are too deep in the truck to position the business for a clean recap or sale. Every other category of help — marketing agencies, fractional CMOs, management consultancies, ERP vendors — addresses one slice of that problem. ThermaForge addresses the operating-partner gap directly: an experienced HVAC operator in the seat for an annual engagement, equity-aligned to the recap multiple, with the full Carson Systems platform stack bundled in.
+
+## Why HVAC operating-partner work is different from generic ops consulting
+
+HVAC operations have specific levers. Callback rate. First-time-fix percentage. Technician utilization at the seven-hour-billable mark. Dispatch flow versus tech route density. AR aging by aging bucket. Tech retention measured in average tenure. None of these can be moved by someone who has not run an HVAC shop before. A generic operations consultancy will optimize for the wrong things and will not survive a Tuesday morning dispatch meeting with senior techs who have been in the trade for fifteen years. The ThermaForge engagement model assumes the operator has actually been in HVAC, which is why Zach Rains — twenty years in the field, with acquisitions and sales spearheaded between $5M and $50M — is the founding partner and the face of every engagement.
+
+## The operating-partner relationship in practice
+
+A ThermaForge engagement is not a deck. It is a partner who walks the shop floor on a Tuesday, sits in the dispatch room on a Friday, runs the technician retention one-on-ones, attends the weekly P&L review, builds out the recruiting funnel, owns the integration of Routebook into the existing operations, and reports against a written quarterly plan. Most engagements involve weekly on-site presence and constant communication. The operating partner is named in the engagement letter; ThermaForge does not subcontract or hand off to junior staff.
+
+## The Carson Systems platform stack and how it factors in
+
+Carson Systems LLC is a separate legal entity that builds Routebook (HVAC field service ERP), Frontline AI (24/7 phone coverage), and the multi-platform content engine. Carson Systems licenses these products to ThermaForge for inclusion in client engagements. From the client's perspective, the platform stack is bundled into the monthly engagement fee — there are no separate platform invoices. From the financial reality between Carson Systems and ThermaForge, there is a real per-engagement license fee. Both of those statements are true; the marketing language reflects the client view because the client view is what matters at the point of sale.
+
+The retail value of the platform stack is meaningful. Routebook alone retails at $1,499 per month, or $17,988 per year. Frontline AI retails at $499 per month, or $5,988 per year. Combined, the Scale tier platform stack value exceeds $24,000 per year, before counting the content engine, video production, or community engagement components.
+
+The cost comparison that anchors prospects correctly is not against assembled software but against in-house hires. The work each tier replaces would otherwise require a fractional operating partner with HVAC operations and acquisition exposure ($200K+ base), a marketing or content lead ($120K+), and ERP licensing across the stack ($60K+) — fully-loaded compensation $400K+ before infrastructure, recruiting risk, ramp time, or equity dilution. ThermaForge engagements consolidate this work under one accountable owner with built-in equity alignment to the recap.
+
+The return comparison is at recap. On a $10M HVAC shop running 12% EBITDA — that's $1.2M EBITDA — PE buyers transact at 5x to 7x multiples, putting recap valuation at $6M to $8.4M. A single 100 bps EBITDA improvement lifts recap valuation by $500K to $700K. ThermaForge engagements typically drive 200 to 400 bps over the engagement window, which returns the engagement fee 6x to 16x at exit before counting equity terms. The arithmetic is the comparison that owners actually run once they sit with the math: a Year 1 expense compounding into a Year 3 valuation lift several multiples larger than the cost.
+
+## Engagement tiers
+
+ThermaForge Operate runs $8,000 per month plus equity. Annual engagement. Includes operating-partner work, search-intent lead pipeline routed to your project managers, Routebook ERP fully bundled, profit-improvement and team-building work, recruiting funnel buildout, pre-PE positioning and recap-readiness work, and geographic exclusivity in your metro. Best fit is $5M to $15M HVAC shops needing operational lift and qualified call volume.
+
+ThermaForge Scale runs $14,500 per month plus equity. Annual engagement. Everything in Operate, plus Frontline AI 24/7 call coverage, the multi-platform content engine (X, Instagram, TikTok, Reddit, YouTube Shorts), Echo Clip short-form video production, approval-gated community engagement on Reddit and X, and quarterly brand-asset refreshes. Best fit is $10M+ HVAC shops scaling brand and tech recruiting alongside operations, or positioning for a near-term recap or sale where every pre-close decision is a multiple decision.
+
+Both tiers carry the same six-client cap across the firm. Engagements open only as existing clients reach steady state. Equity terms are negotiated per engagement and aligned to the recap or exit horizon.
+
+## The first ninety days of an Operate engagement
+
+Week one is a dispatch board audit and AR aging review, on-site, with baseline metrics established. Weeks two and three are Routebook deployment and data migration from the existing stack — typically ServiceTitan or FieldEdge or stitched-together spreadsheets. Week four is the technician retention interview round, identifying flight risks and standing up the recruiting funnel like a sales funnel. Month two brings the search-intent lead pipeline live and qualified leads hitting the dispatcher within thirty to forty-five days of kickoff. Month three is the first quarterly operating review, with numbers compared to baseline and the plan refined for the next quarter.
+
+## The first ninety days of a Scale engagement
+
+Same week-one audit, plus a brand and content engine intake. Week two: Routebook migration and content engine activation, with first owner-voice posts shipping to X and Instagram. Week three: Frontline AI deployed, 24/7 phone coverage live, booking flowing into Routebook. Week four: community engagement approved by the owner and the first Reddit/X posts shipped, plus tech retention interviews. Month two: Echo Clip video pipeline established and search-intent leads routed to PMs. Month three: cross-channel quarterly review across operations, content, calls, and recruiting.
+
+## The new operating stack and why it matters for valuation
+
+The shops that are growing past $10M in 2026 are not the ones with better techs or larger marketing budgets. They are the ones running on infrastructure built in the last twenty-four months — AI call coverage, content automation, ERP that surfaces real job-cost P&L. The buyer at a recap looks for documented systems, modern infrastructure, and recurring data, not a manual operation requiring two million dollars of post-close investment. Owners who deploy this stack now are not just growing faster; they are exiting at higher multiples because the buyer sees a modern operation rather than a cleanup project. ThermaForge engagements deploy this stack as a non-negotiable part of every tier.
+
+## Differentiation summary
+
+ThermaForge is not a marketing agency. Marketing agencies run ads and report click-through rates. ThermaForge sits in the dispatch room.
+
+ThermaForge is not a fractional CMO. Fractional CMOs write strategy decks. ThermaForge owns the operational uplift that strategy is supposed to enable.
+
+ThermaForge is not a management consultancy. Consultancies bill $200K+ for slides. ThermaForge engages annually, equity-aligned, six-client cap, with the platform stack bundled.
+
+ThermaForge is not a software vendor. Software vendors sell licenses. ThermaForge bundles software into the operating-partner engagement.
+
+## Founders
+
+Zach Rains — Founding Partner. Two-plus decades in HVAC operations. Has spearheaded acquisitions and sales spanning $5M to $50M across his career. Runs culture, sales-team architecture, technician training, and in-house talent acquisition for ThermaForge engagements. The face in the building. Email: zach@thermaforgepartners.com
+
+Samuel Carson — Operating Partner, Systems and AI. Founder of Carson Systems LLC. Builder of Routebook (HVAC field service ERP), Frontline AI (24/7 call coverage), and Plymouth (construction ERP for general contractors). Owns the platform side of every engagement — software deployment, automation infrastructure, AI integration. Email: samuel@carson.systems
+
+## Geography and exclusivity
+
+Headquartered in Nashville, Tennessee. Engagements are available nationwide across the United States. Geographic exclusivity is guaranteed in the engagement letter against the actual client service map, not against a static zip code list. Once ThermaForge engages with a shop in a given metro, ThermaForge does not take a competing engagement in that service area for the duration of the engagement.
+
+## Application
+
+Apply at https://thermaforgepartners.com/apply with company name, contact information, metro, current revenue range, technician count, current ERP system, recap timeline, and primary operational pain. Every application is reviewed personally. Response within 48 business hours regardless of fit. If ThermaForge is a fit, the next step is a 30-minute operator-to-operator call. If not, ThermaForge will tell you why and recommend who is.
+
+## Contact
+
+zach@thermaforgepartners.com
+samuel@carson.systems
+https://thermaforgepartners.com

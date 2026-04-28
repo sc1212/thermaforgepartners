@@ -195,6 +195,11 @@
     footer .meta { font-size: 13px; color: var(--steel); margin-top: 12px; max-width: 36ch; }
     footer .legal { font-size: 12px; color: var(--steel); margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--line-dark); }
     @media (max-width: 720px) { footer .grid { grid-template-columns: 1fr 1fr; gap: 28px; } }
+
+    /* ── Editorial hero band (Unsplash) ──────────────────────────────── */
+    .hero-photo-band { background: var(--charcoal); padding: 0; }
+    .hero-photo-band img { width: 100%; max-height: 480px; object-fit: cover; display: block; filter: contrast(1.05) saturate(0.92); }
+    @media (max-width: 720px) { .hero-photo-band img { max-height: 320px; } }
   </style>
 </head>
 <body>
@@ -235,6 +240,11 @@
         <a href="#how-we-work" class="btn btn-ghost">See how we work</a>
       </div>
     </div>
+  </section>
+
+  <!-- Editorial hero band — photo via Unsplash -->
+  <section class="hero-photo-band">
+    <img src="/assets/photos/rooftop-vents.jpg" alt="Rooftop view of an apartment building's HVAC vents at dusk" loading="eager" />
   </section>
 
   <!-- Founders -->

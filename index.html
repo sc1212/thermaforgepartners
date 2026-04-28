@@ -200,27 +200,19 @@
        Industrial = sharp edges. 21:8 cinematic letterbox, stronger color
        grade so the hero photo carries the brand voice rather than reading
        as decoration. */
-    .hero-photo-band { background: var(--charcoal); padding: 0; position: relative; }
-    .hero-photo-band img {
-      width: 100%;
-      aspect-ratio: 21 / 8;
-      max-height: 420px;
-      object-fit: cover;
-      display: block;
-      border-radius: 0;
-      filter: contrast(1.12) saturate(0.85) brightness(0.95);
+    .hero-photo-band {
+      width: 100vw;
+      margin-left: calc(50% - 50vw);
+      margin-right: calc(50% - 50vw);
+      height: 1px;
+      background: linear-gradient(90deg,
+        transparent 0%,
+        rgba(244, 160, 21, 0.4) 50%,
+        transparent 100%);
+      margin-top: 40px;
+      margin-bottom: 40px;
     }
-    .hero-photo-band::after {
-      content: '';
-      position: absolute;
-      left: 0; right: 0; bottom: 0;
-      height: 24%;
-      background: linear-gradient(to bottom, transparent, var(--charcoal));
-      pointer-events: none;
-    }
-    @media (max-width: 720px) {
-      .hero-photo-band img { aspect-ratio: 16 / 9; max-height: 320px; }
-    }
+    .hero-photo-band img { display: none; }
   </style>
 </head>
 <body>
@@ -263,10 +255,10 @@
     </div>
   </section>
 
-  <!-- Editorial hero band — photo via Unsplash -->
-  <section class="hero-photo-band">
-    <img src="/assets/photos/rooftop-vents.jpg" alt="Rooftop view of an apartment building's HVAC vents at dusk" loading="eager" />
-  </section>
+  <!-- HERO IMAGE PENDING — manual curation only.
+       Operator (Samuel) will drop canonical HVAC photo to
+       /assets/photos/hero-bg.jpg when curated. -->
+  <section class="hero-photo-band" aria-hidden="true"></section>
 
   <!-- Founders -->
   <section class="section" style="padding-top: 0;">

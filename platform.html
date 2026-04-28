@@ -39,22 +39,148 @@
 
     <div class="tf-platform-grid" style="grid-template-columns: 1fr; max-width: 880px; margin: 0 auto; gap: 24px;">
 
-      <article class="tf-platform-card">
-        <span class="tf-tier-badge">Operate + Scale</span>
-        <h3>Routebook</h3>
-        <p class="tf-producer-tag">Carson Systems product · Field service ERP</p>
-        <div class="tf-card-body">
-          <p>The HVAC ERP every ThermaForge client deploys. Dispatch, jobs, invoicing, AR, inventory, real job-cost P&amp;L. Replaces ServiceTitan, FieldEdge, or whatever stitched-together stack you're running today. Migration handled by the engagement at no extra cost.</p>
-          <p>Routebook is the operational visibility layer that lets the operating partner actually do the work. Without it, ops uplift is guesswork.</p>
+      <article class="tf-platform-card" style="background:transparent; border:0; padding:0;">
+
+        <div style="padding:0 4px;">
+          <div style="display:inline-block; padding:6px 12px; border:1px solid rgba(250,250,247,0.10); border-radius:6px; font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:rgba(250,250,247,0.55); margin-bottom:32px; font-family:'Inter',system-ui,sans-serif;">Operate + Scale</div>
+
+          <h3 style="font-size:clamp(40px, 6vw, 64px); font-weight:900; letter-spacing:-0.03em; line-height:1.0; color:#FAFAF7; margin:0 0 14px; font-family:'Inter',system-ui,sans-serif;">Routebook</h3>
+
+          <div style="font-size:15px; color:rgba(250,250,247,0.55); letter-spacing:0.02em; margin-bottom:32px; font-weight:500;">Carson Systems product &middot; Field service ERP</div>
+
+          <p style="font-size:17px; line-height:1.55; color:rgba(250,250,247,0.78); max-width:780px; font-weight:400; margin:0 0 18px;">The HVAC ERP every ThermaForge client deploys. Dispatch, jobs, invoicing, AR, inventory, real job-cost P&amp;L. Replaces ServiceTitan, FieldEdge, or whatever stitched-together stack you're running today. Migration handled by the engagement at no extra cost.</p>
+
+          <p style="font-size:17px; line-height:1.55; color:rgba(250,250,247,0.78); max-width:780px; font-weight:400; margin:0 0 56px;">Routebook is the operational visibility layer that lets the operating partner actually do the work. Without it, ops uplift is guesswork.</p>
         </div>
-        <div class="tf-card-photo">
-          <img src="/assets/photos/timeline-financials.jpg" alt="Real numbers, real visibility — what makes operating-partner work possible" loading="lazy" />
-          <span class="tf-card-photo-caption">Real numbers, real visibility — what makes operating-partner work possible</span>
-        </div>
+
+        <!-- ROUTEBOOK DASHBOARD MOCK — light island inside dark page -->
+        <div style="background:#FAFAF7; border-radius:14px; box-shadow:0 40px 100px rgba(0,0,0,0.50), 0 0 0 1px rgba(250,250,247,0.10); overflow:hidden;">
+
+          <!-- Browser chrome titlebar -->
+          <div style="background:#F4F2EC; padding:12px 18px; display:flex; align-items:center; gap:10px; border-bottom:1px solid #E8E6DF;">
+            <div style="width:11px; height:11px; border-radius:50%; background:#FF5F57;"></div>
+            <div style="width:11px; height:11px; border-radius:50%; background:#FEBC2E;"></div>
+            <div style="width:11px; height:11px; border-radius:50%; background:#28C840;"></div>
+            <div style="flex:1; margin-left:14px; background:#FFFFFF; border:1px solid #DCD9CF; border-radius:6px; padding:5px 12px; font-size:11px; color:#5C5C60; font-weight:500; letter-spacing:0.02em;">app.routebook.io / dashboard</div>
+          </div>
+
+          <!-- Body -->
+          <div style="padding:28px 32px; background:#FAFAF7;">
+
+            <!-- Mock header -->
+            <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:24px; padding-bottom:18px; border-bottom:1px solid #E8E6DF; flex-wrap:wrap; gap:14px;">
+              <div>
+                <div style="font-size:10px; font-weight:800; color:#C97B47; letter-spacing:0.14em; text-transform:uppercase; margin-bottom:6px;">ROUTEBOOK &middot; DASHBOARD</div>
+                <div style="font-size:22px; font-weight:800; color:#0F0F10; letter-spacing:-0.015em;">This week</div>
+              </div>
+              <div style="display:flex; gap:4px; background:#F4F2EC; border:1px solid #DCD9CF; border-radius:8px; padding:3px;">
+                <div style="font-size:11px; font-weight:700; padding:6px 12px; border-radius:6px; background:#0F0F10; color:#FAFAF7; letter-spacing:0.02em;">Today</div>
+                <div style="font-size:11px; font-weight:700; padding:6px 12px; border-radius:6px; color:#5C5C60; letter-spacing:0.02em;">Week</div>
+                <div style="font-size:11px; font-weight:700; padding:6px 12px; border-radius:6px; color:#5C5C60; letter-spacing:0.02em;">Month</div>
+              </div>
+            </div>
+
+            <!-- KPI ROW — explicit 3-col grid -->
+            <div data-rb-kpi-row style="display:grid; grid-template-columns:repeat(3, 1fr); gap:14px; margin-bottom:24px;">
+
+              <div style="background:#FFFFFF; border:1px solid #DCD9CF; border-radius:10px; padding:18px 20px; box-shadow:0 1px 2px rgba(15,15,16,0.03);">
+                <div style="font-size:10px; font-weight:800; letter-spacing:0.10em; text-transform:uppercase; color:#5C5C60; margin-bottom:10px;">Revenue WTD</div>
+                <div style="font-size:28px; font-weight:800; color:#0F0F10; letter-spacing:-0.02em; font-feature-settings:'tnum'; display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;">
+                  $84.2k
+                  <span style="font-size:11px; font-weight:700; padding:2px 7px; border-radius:4px; background:rgba(31,122,61,0.10); color:#1F7A3D;">&#9650; 12.4%</span>
+                </div>
+                <div style="font-size:11px; color:#5C5C60; margin-top:6px; font-weight:500;">vs. trailing 4-wk avg $74.9k</div>
+              </div>
+
+              <div style="background:#FFFFFF; border:1px solid #DCD9CF; border-radius:10px; padding:18px 20px; box-shadow:0 1px 2px rgba(15,15,16,0.03);">
+                <div style="font-size:10px; font-weight:800; letter-spacing:0.10em; text-transform:uppercase; color:#5C5C60; margin-bottom:10px;">Job Margin</div>
+                <div style="font-size:28px; font-weight:800; color:#0F0F10; letter-spacing:-0.02em; font-feature-settings:'tnum'; display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;">
+                  38.6%
+                  <span style="font-size:11px; font-weight:700; padding:2px 7px; border-radius:4px; background:rgba(31,122,61,0.10); color:#1F7A3D;">&#9650; 2.1 pts</span>
+                </div>
+                <div style="font-size:11px; color:#5C5C60; margin-top:6px; font-weight:500;">target 36% &middot; 14 jobs closed</div>
+              </div>
+
+              <div style="background:#FFFFFF; border:1px solid #DCD9CF; border-radius:10px; padding:18px 20px; box-shadow:0 1px 2px rgba(15,15,16,0.03);">
+                <div style="font-size:10px; font-weight:800; letter-spacing:0.10em; text-transform:uppercase; color:#5C5C60; margin-bottom:10px;">AR &gt; 60 days</div>
+                <div style="font-size:28px; font-weight:800; color:#0F0F10; letter-spacing:-0.02em; font-feature-settings:'tnum'; display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;">
+                  $19.8k
+                  <span style="font-size:11px; font-weight:700; padding:2px 7px; border-radius:4px; background:rgba(185,28,28,0.10); color:#B91C1C;">&#9660; 8.0%</span>
+                </div>
+                <div style="font-size:11px; color:#5C5C60; margin-top:6px; font-weight:500;">7 invoices &middot; 2 in dispute</div>
+              </div>
+
+            </div>
+
+            <!-- DISPATCH BOARD -->
+            <div data-rb-dispatch style="background:#FFFFFF; border:1px solid #DCD9CF; border-radius:10px; overflow:hidden;">
+
+              <div style="padding:14px 20px; border-bottom:1px solid #E8E6DF; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                <div style="font-size:13px; font-weight:800; color:#0F0F10; letter-spacing:0.01em;">Dispatch board &middot; Tuesday</div>
+                <div style="font-size:11px; color:#5C5C60; font-weight:500;">5 techs &middot; 13 jobs &middot; 2 unassigned</div>
+              </div>
+
+              <!-- Time-axis header -->
+              <div style="display:grid; grid-template-columns:80px repeat(5, 1fr);">
+                <div style="padding:10px 12px; font-size:10px; font-weight:800; color:#5C5C60; letter-spacing:0.10em; text-transform:uppercase; border-right:1px solid #E8E6DF; background:#F4F2EC;">Tech</div>
+                <div style="padding:10px 12px; font-size:10px; font-weight:800; color:#5C5C60; letter-spacing:0.10em; text-transform:uppercase; border-right:1px solid #E8E6DF; background:#F4F2EC;">8a</div>
+                <div style="padding:10px 12px; font-size:10px; font-weight:800; color:#5C5C60; letter-spacing:0.10em; text-transform:uppercase; border-right:1px solid #E8E6DF; background:#F4F2EC;">10a</div>
+                <div style="padding:10px 12px; font-size:10px; font-weight:800; color:#5C5C60; letter-spacing:0.10em; text-transform:uppercase; border-right:1px solid #E8E6DF; background:#F4F2EC;">12p</div>
+                <div style="padding:10px 12px; font-size:10px; font-weight:800; color:#5C5C60; letter-spacing:0.10em; text-transform:uppercase; border-right:1px solid #E8E6DF; background:#F4F2EC;">2p</div>
+                <div style="padding:10px 12px; font-size:10px; font-weight:800; color:#5C5C60; letter-spacing:0.10em; text-transform:uppercase; background:#F4F2EC;">4p</div>
+              </div>
+
+              <!-- DAN row -->
+              <div style="display:grid; grid-template-columns:80px repeat(5, 1fr); border-top:1px solid #E8E6DF; min-height:54px;">
+                <div style="display:flex; align-items:center; gap:8px; padding:0 12px; background:#F4F2EC; border-right:1px solid #E8E6DF; font-size:12px; font-weight:700; color:#0F0F10;">
+                  <div style="width:22px; height:22px; border-radius:50%; background:#C97B47; color:#FAFAF7; display:flex; align-items:center; justify-content:center; font-size:9px; font-weight:800;">DA</div>
+                  Dan
+                </div>
+                <div style="border-right:1px solid #E8E6DF; padding:6px;"><div style="background:#F4F2EC; border:1px solid #DCD9CF; border-left:3px solid #C97B47; border-radius:5px; padding:5px 8px; font-size:11px; font-weight:700; color:#0F0F10; height:100%;">Hilltop Apt<div style="font-size:9px; font-weight:700; color:#5C5C60; letter-spacing:0.04em;">8:00 &middot; maint</div></div></div>
+                <div style="border-right:1px solid #E8E6DF; padding:6px;"><div style="background:#F4F2EC; border:1px solid #DCD9CF; border-left:3px solid #C97B47; border-radius:5px; padding:5px 8px; font-size:11px; font-weight:700; color:#0F0F10; height:100%;">Hilltop Apt<div style="font-size:9px; font-weight:700; color:#5C5C60; letter-spacing:0.04em;">10:30 &middot; maint</div></div></div>
+                <div style="border-right:1px solid #E8E6DF; padding:6px;"><div style="background:#F4F2EC; border:1px solid #DCD9CF; border-left:3px solid #1F7A3D; border-radius:5px; padding:5px 8px; font-size:11px; font-weight:700; color:#0F0F10; height:100%;">5th Ave Plaza<div style="font-size:9px; font-weight:700; color:#5C5C60; letter-spacing:0.04em;">12:30 &middot; member</div></div></div>
+                <div style="border-right:1px solid #E8E6DF; padding:6px;"><div style="background:#F4F2EC; border:1px solid #DCD9CF; border-left:3px solid #1F7A3D; border-radius:5px; padding:5px 8px; font-size:11px; font-weight:700; color:#0F0F10; height:100%;">5th Ave Plaza<div style="font-size:9px; font-weight:700; color:#5C5C60; letter-spacing:0.04em;">2:00 &middot; member</div></div></div>
+                <div style="padding:6px;"></div>
+              </div>
+
+              <!-- RIO row -->
+              <div style="display:grid; grid-template-columns:80px repeat(5, 1fr); border-top:1px solid #E8E6DF; min-height:54px;">
+                <div style="display:flex; align-items:center; gap:8px; padding:0 12px; background:#F4F2EC; border-right:1px solid #E8E6DF; font-size:12px; font-weight:700; color:#0F0F10;">
+                  <div style="width:22px; height:22px; border-radius:50%; background:#C97B47; color:#FAFAF7; display:flex; align-items:center; justify-content:center; font-size:9px; font-weight:800;">RI</div>
+                  Rio
+                </div>
+                <div style="border-right:1px solid #E8E6DF; padding:6px;"></div>
+                <div style="border-right:1px solid #E8E6DF; padding:6px;"><div style="background:rgba(185,28,28,0.04); border:1px solid #DCD9CF; border-left:3px solid #B91C1C; border-radius:5px; padding:5px 8px; font-size:11px; font-weight:700; color:#0F0F10; height:100%;">Maple Ridge<div style="font-size:9px; font-weight:700; color:#5C5C60; letter-spacing:0.04em;">10:15 &middot; urgent</div></div></div>
+                <div style="border-right:1px solid #E8E6DF; padding:6px;"><div style="background:#F4F2EC; border:1px solid #DCD9CF; border-left:3px solid #C97B47; border-radius:5px; padding:5px 8px; font-size:11px; font-weight:700; color:#0F0F10; height:100%;">Maple Ridge<div style="font-size:9px; font-weight:700; color:#5C5C60; letter-spacing:0.04em;">12:45 &middot; install</div></div></div>
+                <div style="border-right:1px solid #E8E6DF; padding:6px;"><div style="background:#F4F2EC; border:1px solid #DCD9CF; border-left:3px solid #C97B47; border-radius:5px; padding:5px 8px; font-size:11px; font-weight:700; color:#0F0F10; height:100%;">Tunnel Rd<div style="font-size:9px; font-weight:700; color:#5C5C60; letter-spacing:0.04em;">2:30 &middot; diag</div></div></div>
+                <div style="padding:6px;"></div>
+              </div>
+
+              <!-- MIA row -->
+              <div style="display:grid; grid-template-columns:80px repeat(5, 1fr); border-top:1px solid #E8E6DF; min-height:54px;">
+                <div style="display:flex; align-items:center; gap:8px; padding:0 12px; background:#F4F2EC; border-right:1px solid #E8E6DF; font-size:12px; font-weight:700; color:#0F0F10;">
+                  <div style="width:22px; height:22px; border-radius:50%; background:#C97B47; color:#FAFAF7; display:flex; align-items:center; justify-content:center; font-size:9px; font-weight:800;">MI</div>
+                  Mia
+                </div>
+                <div style="border-right:1px solid #E8E6DF; padding:6px;"><div style="background:#F4F2EC; border:1px solid #DCD9CF; border-left:3px solid #C97B47; border-radius:5px; padding:5px 8px; font-size:11px; font-weight:700; color:#0F0F10; height:100%;">Oakwood<div style="font-size:9px; font-weight:700; color:#5C5C60; letter-spacing:0.04em;">8:30 &middot; diag</div></div></div>
+                <div style="border-right:1px solid #E8E6DF; padding:6px;"></div>
+                <div style="border-right:1px solid #E8E6DF; padding:6px;"><div style="background:#F4F2EC; border:1px solid #DCD9CF; border-left:3px solid #1F7A3D; border-radius:5px; padding:5px 8px; font-size:11px; font-weight:700; color:#0F0F10; height:100%;">Brookline HOA<div style="font-size:9px; font-weight:700; color:#5C5C60; letter-spacing:0.04em;">12:00 &middot; member</div></div></div>
+                <div style="border-right:1px solid #E8E6DF; padding:6px;"><div style="background:#F4F2EC; border:1px solid #DCD9CF; border-left:3px solid #1F7A3D; border-radius:5px; padding:5px 8px; font-size:11px; font-weight:700; color:#0F0F10; height:100%;">Brookline HOA<div style="font-size:9px; font-weight:700; color:#5C5C60; letter-spacing:0.04em;">2:00 &middot; member</div></div></div>
+                <div style="padding:6px;"><div style="background:#F4F2EC; border:1px solid #DCD9CF; border-left:3px solid #C97B47; border-radius:5px; padding:5px 8px; font-size:11px; font-weight:700; color:#0F0F10; height:100%;">Oakwood<div style="font-size:9px; font-weight:700; color:#5C5C60; letter-spacing:0.04em;">4:15 &middot; qa</div></div></div>
+              </div>
+
+              <!-- Legend -->
+              <div style="display:flex; gap:18px; padding:10px 20px; background:#F4F2EC; font-size:10px; font-weight:600; color:#5C5C60; letter-spacing:0.04em; flex-wrap:wrap;">
+                <div style="display:flex; align-items:center; gap:6px;"><div style="width:8px; height:8px; border-radius:2px; background:#C97B47;"></div>Standard</div>
+                <div style="display:flex; align-items:center; gap:6px;"><div style="width:8px; height:8px; border-radius:2px; background:#1F7A3D;"></div>Member</div>
+                <div style="display:flex; align-items:center; gap:6px;"><div style="width:8px; height:8px; border-radius:2px; background:#B91C1C;"></div>Urgent</div>
+              </div>
+
             </div>
           </div>
         </div>
-        <a class="tf-ext-link" href="https://runroutebook.com" target="_blank" rel="noopener">Visit Routebook <span class="ext-link-arrow">↗</span></a>
+
+        <a class="tf-ext-link" href="https://runroutebook.com" target="_blank" rel="noopener" style="display:inline-block; margin-top:24px;">Visit Routebook <span class="ext-link-arrow">&#8599;</span></a>
       </article>
 
       <article class="tf-platform-card">

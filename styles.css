@@ -1542,3 +1542,10 @@ a:hover .ext-link-arrow { opacity: 1; transform: translate(2px, -2px); }
   .tf-stack-savings-divider::before,
   .tf-stack-savings-divider::after { display: none; }
 }
+
+/* ── Routebook embedded mock — mobile fallbacks ──────────────────────── */
+@media (max-width: 760px) {
+  [data-rb-kpi-row] { grid-template-columns: 1fr !important; }
+  [data-rb-dispatch] { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  [data-rb-dispatch] > div { min-width: 720px; }
+}

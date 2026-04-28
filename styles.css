@@ -1251,133 +1251,122 @@ a:hover .ext-link-arrow { opacity: 1; transform: translate(2px, -2px); }
   color: #4ade80;
 }
 
-/* ── THE NAME section — editorial typography, not card-y ─────────────── */
+/* ── THE NAME section — monumental display typography ───────────────── */
 .tf-name-section {
-  padding: 110px 0;
+  padding: 140px 0 120px;
   background: var(--tf-bg);
   position: relative;
+  overflow: hidden;
+}
+.tf-name-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 960px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212, 85, 6, 0.5), transparent);
 }
 .tf-name-section .tf-container {
   text-align: center;
-}
-.tf-name-section h2 {
-  margin-bottom: 14px;
-  letter-spacing: -0.02em;
-}
-.tf-name-section h2::after {
-  content: '';
-  display: block;
-  width: 56px;
-  height: 2px;
-  background: var(--tf-orange);
-  margin: 22px auto 0;
-}
-.tf-name-section > .tf-container > p {
-  max-width: 600px;
-  margin: 0 auto 64px;
-  font-size: 1.15rem;
-  color: var(--tf-text-muted);
-  font-style: italic;
-}
-.tf-name-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px;
-  max-width: 1080px;
-  margin: 0 auto;
-  text-align: left;
   position: relative;
 }
-.tf-name-grid::before {
+.tf-name-section .tf-section-head { color: var(--tf-orange); }
+.tf-name-section h2 {
+  font-size: clamp(3rem, 9vw, 6.5rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  margin: 16px 0 22px;
+  color: var(--tf-text);
+}
+/* Color the dot in "Therma · Forge." */
+.tf-name-section h2 {
+  background: none;
+}
+.tf-name-section > .tf-container > p {
+  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  color: var(--tf-text-muted);
+  font-style: italic;
+  margin: 0 auto 96px;
+  max-width: 540px;
+}
+.tf-name-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: left;
+}
+.tf-name-block { position: relative; padding-left: 28px; }
+.tf-name-block::before {
   content: '';
   position: absolute;
-  top: 8%;
-  bottom: 8%;
-  left: 50%;
-  width: 1px;
-  background: linear-gradient(
-    to bottom,
-    transparent,
-    rgba(212, 85, 6, 0.4) 20%,
-    rgba(212, 85, 6, 0.4) 80%,
-    transparent
-  );
+  left: 0; top: 14px; bottom: 14px;
+  width: 2px;
+  background: var(--tf-orange);
 }
-.tf-name-block { padding: 0 8px; }
 .tf-name-block .tf-name-tag {
-  display: inline-block;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.18em;
+  display: block;
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1;
   color: var(--tf-orange);
-  margin-bottom: 18px;
-  padding-bottom: 8px;
-  border-bottom: 2px solid var(--tf-orange);
+  margin-bottom: 22px;
+  text-transform: none;
 }
 .tf-name-block h3 {
-  font-size: 1.5rem;
+  font-size: clamp(1.4rem, 2.4vw, 1.85rem);
   font-weight: 700;
-  line-height: 1.25;
   letter-spacing: -0.02em;
+  line-height: 1.2;
   color: var(--tf-text);
-  margin-bottom: 18px;
-  max-width: 22ch;
+  margin-bottom: 22px;
+  max-width: 28ch;
 }
 .tf-name-block p {
-  font-size: 1.02rem;
+  font-size: clamp(1rem, 1.4vw, 1.1rem);
   line-height: 1.7;
   color: var(--tf-text-muted);
   margin: 0;
 }
 .tf-name-conclusion {
-  max-width: 720px;
-  margin: 80px auto 0;
-  padding-top: 56px;
+  max-width: 760px;
+  margin: 120px auto 0;
+  padding-top: 64px;
   border-top: 1px solid var(--tf-border);
   text-align: center;
 }
 .tf-name-conclusion p {
-  font-size: 1.05rem;
+  font-size: 1.08rem;
   line-height: 1.65;
   color: var(--tf-text-muted);
-  margin: 0 0 24px;
+  margin: 0 0 36px;
 }
 .tf-name-conclusion .tf-name-tagline {
-  font-size: 1.35rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
   color: var(--tf-text);
   margin: 0;
 }
 .tf-name-conclusion .tf-name-tagline::before {
   content: '';
   display: block;
-  width: 32px;
-  height: 1px;
+  width: 48px;
+  height: 2px;
   background: var(--tf-orange);
-  margin: 0 auto 18px;
+  margin: 0 auto 28px;
 }
-@media (max-width: 880px) {
-  .tf-name-section { padding: 80px 0; }
-  .tf-name-grid {
-    grid-template-columns: 1fr;
-    gap: 48px;
-  }
-  .tf-name-grid::before {
-    top: auto; bottom: auto;
-    left: 8%; right: 8%;
-    width: auto; height: 1px;
-    top: 50%;
-    background: linear-gradient(
-      to right,
-      transparent,
-      rgba(212, 85, 6, 0.4) 20%,
-      rgba(212, 85, 6, 0.4) 80%,
-      transparent
-    );
-  }
-  .tf-name-block h3 { font-size: 1.3rem; }
-  .tf-name-conclusion { margin-top: 56px; padding-top: 40px; }
+@media (max-width: 720px) {
+  .tf-name-section { padding: 88px 0 72px; }
+  .tf-name-grid { gap: 64px; }
+  .tf-name-block { padding-left: 20px; }
+  .tf-name-conclusion { margin-top: 80px; padding-top: 48px; }
 }
 
 /* ── Platform cards: real-photo treatment ────────────────────────────── */

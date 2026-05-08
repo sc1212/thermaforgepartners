@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ThermaForge × Frontline — HVAC Client Onboarding</title>
+<meta name="description" content="Co-branded ThermaForge and Frontline onboarding console for HVAC clients: account setup, call routing, first-call-recorded milestone, and next steps." />
+<meta name="robots" content="noindex,follow" />
+<meta property="og:title" content="ThermaForge × Frontline Client Onboarding" />
+<meta property="og:description" content="Command-center onboarding for HVAC operators configuring Frontline call routing through ThermaForge Partners." />
+<meta property="og:image" content="https://thermaforgepartners.com/assets/brand/lockup-vertical.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" href="/assets/tf-monogram.png" type="image/png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+<link rel="stylesheet" href="/styles.css" />
+<link rel="stylesheet" href="/assets/onboarding.css" />
+<link rel="canonical" href="https://thermaforgepartners.com/onboarding" />
+</head>
+<body class="onboarding-body">
+<a class="skip-link" href="#onboarding-app">Skip to onboarding console</a>
+
+<nav class="tf-nav onboarding-nav" aria-label="Primary">
+  <a href="/" class="tf-nav-logo" aria-label="ThermaForge Partners home">
+    <img src="/assets/tf-monogram.png" alt="" />
+    <span class="tf-wordmark"><span class="tf-wordmark-main">THERM<span class="tf-a">A</span>FORGE</span><span class="tf-wordmark-sub">PARTNERS</span></span>
+  </a>
+  <a href="/operate">Operate</a>
+  <a href="/scale">Scale</a>
+  <a href="/platform">Platform</a>
+  <a href="/onboarding" class="active">Onboarding</a>
+  <a href="/apply" class="tf-nav-cta">Apply</a>
+</nav>
+
+<main id="onboarding-app" class="onboarding-shell" data-testid="onboarding-app">
+  <section class="onboarding-hero" aria-labelledby="onboarding-title">
+    <div class="command-grid" aria-hidden="true"></div>
+    <div class="hero-lockup">
+      <div class="inline-monogram" aria-hidden="true">
+        <svg viewBox="0 0 118 98" role="img" focusable="false">
+          <path class="tf-mark-copper" d="M8 6h84l-10 16H58v70H38V22H8z" />
+          <path class="tf-mark-steel" d="M62 32h48L99 48H81v12h27L97 76H62z" />
+          <path class="tf-mark-shadow" d="M38 22h20v70L48 84V34H28z" />
+        </svg>
+      </div>
+      <div>
+        <p class="brand-kicker">THERMAFORGE <span>PARTNERS</span></p>
+        <h1 id="onboarding-title">Frontline call routing, wrapped in HVAC operating discipline.</h1>
+        <p class="hero-subcopy">A partner-led setup console for signed HVAC clients. Move from account details to routed calls, first-call-recorded proof, and a 24-hour review plan without losing the shop-floor context.</p>
+      </div>
+    </div>
+    <aside class="hero-status-card" aria-label="Onboarding status">
+      <span class="status-label">Current engagement</span>
+      <strong data-summary="companyName">HVAC client setup</strong>
+      <span>Stronger Operations. Stronger Profits.</span>
+    </aside>
+  </section>
+
+  <section class="console-layout" aria-label="ThermaForge Frontline onboarding flow">
+    <aside class="progress-rail" aria-label="Onboarding progress">
+      <p class="rail-heading">Command sequence</p>
+      <ol id="stepper" class="stepper" data-testid="stepper"></ol>
+      <div class="rail-note">
+        <span>Frontline configuration layer</span>
+        <strong>615-785-9039</strong>
+        <p>ThermaForge leads the operating context; Frontline answers, records, routes, and reports.</p>
+      </div>
+    </aside>
+
+    <section class="console-card" aria-live="polite">
+      <div class="console-header">
+        <p id="step-eyebrow" class="step-eyebrow"></p>
+        <div class="meter" aria-hidden="true"><span id="progress-meter"></span></div>
+      </div>
+
+      <form id="step-form" class="onboarding-form" novalidate>
+        <div class="step-panel" data-step="0" data-testid="step-account">
+          <h2>Step 1 — account setup</h2>
+          <p class="panel-lede">Confirm the operating facts ThermaForge needs before Frontline starts answering in your voice.</p>
+          <div class="form-grid">
+            <label>Company name
+              <input data-testid="company-name-input" name="companyName" autocomplete="organization" placeholder="Example: Volunteer Mechanical" required />
+            </label>
+            <label>Primary contact
+              <input data-testid="primary-contact-input" name="primaryContact" autocomplete="name" placeholder="Owner or GM" required />
+            </label>
+            <label>Service area
+              <input data-testid="service-area-input" name="serviceArea" placeholder="Nashville, Brentwood, Franklin" required />
+            </label>
+            <label>Dispatch contact
+              <input data-testid="dispatch-contact-input" name="dispatchContact" placeholder="Dispatch lead + best number" required />
+            </label>
+            <label>Emergency rules
+              <textarea data-testid="emergency-rules-input" name="emergencyRules" placeholder="After-hours no-heat/no-cool rules, VIP exceptions, warranty constraints"></textarea>
+            </label>
+            <label>Calendar owner
+              <input data-testid="calendar-owner-input" name="calendarOwner" placeholder="Who owns booking changes?" />
+            </label>
+          </div>
+          <div class="operator-note">
+            <strong>Partner context:</strong> ThermaForge reviews these inputs like an operator, not a software vendor — dispatch pressure, technician capacity, and emergency judgment all matter before the first call routes.
+          </div>
+        </div>
+
+        <div class="step-panel" data-step="1" data-testid="step-routing" hidden>
+          <h2>Step 2 — route calls to Frontline</h2>
+          <p class="panel-lede">Forward your main line or after-hours line to Frontline. This number should be visible to the carrier admin or phone-system owner during setup.</p>
+          <div class="routing-number-card">
+            <span>Frontline routing number</span>
+            <strong id="routing-number">615-785-9039</strong>
+            <button type="button" id="copy-routing" class="copy-button" data-testid="copy-routing-number" aria-describedby="copy-feedback">Copy number</button>
+            <p id="copy-feedback" class="copy-feedback" role="status">Ready to copy for your carrier or phone-system admin.</p>
+          </div>
+          <div class="instruction-card">
+            <h3>Copyable forwarding instructions</h3>
+            <textarea id="forwarding-instructions" data-testid="forwarding-instructions" readonly>Forward our main HVAC service line to Frontline at 615-785-9039 during the agreed coverage window. Keep caller ID pass-through enabled, leave voicemail fallback disabled during coverage, and confirm calls are reaching Frontline before the first live after-hours period.</textarea>
+          </div>
+          <fieldset class="checklist" data-testid="routing-checklist">
+            <legend>Routing checklist</legend>
+            <label><input type="checkbox" name="routingChecklist" value="coverageWindow" /> Coverage window selected: after-hours, overflow, or 24/7</label>
+            <label><input type="checkbox" name="routingChecklist" value="carrierAccess" /> Carrier or phone-system admin has access</label>
+            <label><input type="checkbox" name="routingChecklist" value="callerId" /> Caller ID pass-through stays enabled</label>
+            <label><input type="checkbox" name="routingChecklist" value="fallback" /> Backup escalation contact confirmed</label>
+          </fieldset>
+        </div>
+
+        <div class="step-panel" data-step="2" data-testid="step-milestone" hidden>
+          <h2>Step 3 — first-call-recorded milestone</h2>
+          <p class="panel-lede">The onboarding is not real until a call is recorded, reviewed, and tied back to dispatch action. Check each item as it is verified.</p>
+          <fieldset class="checklist milestone-list" data-testid="milestone-checklist">
+            <legend>Milestone checklist</legend>
+            <label><input type="checkbox" name="milestones" value="testCall" /> Test call placed from an outside number</label>
+            <label><input type="checkbox" name="milestones" value="greeting" /> Greeting verified against the shop's preferred wording</label>
+            <label><input type="checkbox" name="milestones" value="emergency" /> Emergency handling verified for no-heat/no-cool scenarios</label>
+            <label><input type="checkbox" name="milestones" value="transcript" /> Transcript reviewed by ThermaForge and the client</label>
+            <label><input type="checkbox" name="milestones" value="leadAlert" /> Lead alert received by dispatch contact</label>
+            <label><input type="checkbox" name="milestones" value="calendar" /> Calendar booking confirmed or escalation path validated</label>
+          </fieldset>
+          <div class="review-grid">
+            <article>
+              <span>ThermaForge reviews</span>
+              <p>Call quality, HVAC judgment, emergency routing, missed-revenue signals, and dispatch-room friction.</p>
+            </article>
+            <article>
+              <span>Frontline monitors</span>
+              <p>Answer performance, recording capture, transcript delivery, lead alerts, and routing uptime.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="step-panel" data-step="3" data-testid="step-confirmation" hidden>
+          <h2>Step 4 — confirmation and next steps</h2>
+          <p class="panel-lede">Your setup package is ready for the first 24-hour operating review.</p>
+          <div class="confirmation-grid">
+            <article class="summary-card">
+              <span>Client</span>
+              <strong data-summary="companyName">HVAC client setup</strong>
+              <p><span data-summary="serviceArea">Service area pending</span> · Dispatch: <span data-summary="dispatchContact">pending</span></p>
+            </article>
+            <article class="summary-card">
+              <span>Routing</span>
+              <strong>Frontline at 615-785-9039</strong>
+              <p>Main line forwarding, caller ID pass-through, and backup escalation should remain active through the review window.</p>
+            </article>
+          </div>
+          <div class="next-steps">
+            <h3>Next 24 hours</h3>
+            <ol>
+              <li>ThermaForge reviews the first recorded call, transcript, and dispatch outcome.</li>
+              <li>Frontline monitors answer capture, routing uptime, and lead-alert delivery.</li>
+              <li>The client confirms any emergency-rule edits before the next after-hours period.</li>
+              <li>ThermaForge sends the operating readout: what happened, what changed, and what to watch next.</li>
+            </ol>
+          </div>
+          <div class="contact-strip">
+            <span>Questions during ramp?</span>
+            <a href="mailto:zach@thermaforgepartners.com" data-testid="contact-thermaforge">zach@thermaforgepartners.com</a>
+            <span>Frontline configuration layer: 615-785-9039</span>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" id="prev-step" class="tf-btn-secondary" data-testid="previous-step">Back</button>
+          <button type="button" id="next-step" class="tf-btn-primary" data-testid="next-step">Continue</button>
+          <button type="button" id="complete-onboarding" class="tf-btn-primary complete-button" data-testid="complete-onboarding" hidden>Complete onboarding</button>
+        </div>
+      </form>
+    </section>
+  </section>
+</main>
+
+<footer class="tf-footer">
+  <div class="tf-footer-grid">
+    <div class="tf-footer-brand">
+      <a href="/" class="tf-nav-logo">
+        <img src="/assets/tf-monogram.png" alt="" />
+        <span class="tf-wordmark"><span class="tf-wordmark-main">THERM<span class="tf-a">A</span>FORGE</span><span class="tf-wordmark-sub">PARTNERS</span></span>
+      </a>
+      <p>Stronger Operations. Stronger Profits. HVAC operating credibility paired with Frontline call-answering infrastructure.</p>
+    </div>
+    <div><h4>Engagements</h4><ul><li><a href="/operate">Operate</a></li><li><a href="/scale">Scale</a></li><li><a href="/apply">Apply</a></li></ul></div>
+    <div><h4>Platform</h4><ul><li><a href="/platform">Systems</a></li><li><a href="https://frontline.carson.systems" target="_blank" rel="noopener">Frontline AI<span class="ext-link-arrow">↗</span></a></li></ul></div>
+    <div><h4>Contact</h4><ul><li><a href="mailto:zach@thermaforgepartners.com">zach@thermaforgepartners.com</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li></ul></div>
+  </div>
+  <div class="tf-footer-bottom">© 2026 ThermaForge Partners LLC.</div>
+</footer>
+
+<script src="/assets/onboarding.js" defer></script>
+</body>
+</html>

@@ -6,7 +6,7 @@ ThermaForge Partners exists because most HVAC shops between $5M and $25M in reve
 
 ## Why HVAC operating-partner work is different from generic ops consulting
 
-HVAC operations have specific levers. Callback rate. First-time-fix percentage. Technician utilization at the seven-hour-billable mark. Dispatch flow versus tech route density. AR aging by aging bucket. Tech retention measured in average tenure. None of these can be moved by someone who has not run an HVAC shop before. A generic operations consultancy will optimize for the wrong things and will not survive a Tuesday morning dispatch meeting with senior techs who have been in the trade for fifteen years. The ThermaForge engagement model assumes the operator has actually been in HVAC, which is why Zach Rains — twenty years in the field, with acquisitions and sales spearheaded between $5M and $50M — is the founding partner and the face of every engagement.
+HVAC operations have specific levers. Callback rate. First-time-fix percentage. Technician utilization at the seven-hour-billable mark. Dispatch flow versus tech route density. AR aging by aging bucket. Tech retention measured in average tenure. None of these can be moved by someone who has not run an HVAC shop before. A generic operations consultancy will optimize for the wrong things and will not survive a Tuesday morning dispatch meeting with senior techs who have been in the trade for fifteen years. The ThermaForge engagement model assumes the operator has actually been in HVAC, which is why the founding partner — twenty years in the field, with acquisitions and sales spearheaded between $5M and $50M — is the face of every engagement.
 
 ## The operating-partner relationship in practice
 
@@ -52,11 +52,11 @@ ThermaForge is not a management consultancy. Consultancies bill $200K+ for slide
 
 ThermaForge is not a software vendor. Software vendors sell licenses. ThermaForge bundles software into the operating-partner engagement.
 
-## Founders
+## Partners
 
-Zach Rains — Founding Partner. Two-plus decades in HVAC operations. Has spearheaded acquisitions and sales spanning $5M to $50M across his career. Runs culture, sales-team architecture, technician training, and in-house talent acquisition for ThermaForge engagements. The face in the building. Email: zach@thermaforgepartners.com
+Founding Partner. Two-plus decades in HVAC operations. Acquisitions and sales spearheaded between $5M and $50M. Runs culture, sales-team architecture, technician training, and in-house talent acquisition for ThermaForge engagements. The face in the building. Contact: thermaforgepartners.com/apply
 
-Samuel Carson — Operating Partner, Systems and AI. Founder of Carson Systems LLC. Builder of Routebook (HVAC field service ERP), Frontline AI (24/7 call coverage), and Plymouth (construction ERP for general contractors). Owns the platform side of every engagement — software deployment, automation infrastructure, AI integration. Email: samuel@carson.systems
+Operating Partner — Systems and AI. Carson Systems LLC is the platform company behind Routebook (HVAC field service ERP), Frontline AI (24/7 call coverage), and Plymouth (construction ERP for general contractors). Owns the platform side of every engagement — software deployment, automation infrastructure, AI integration. Contact: thermaforgepartners.com/apply
 
 ## Geography and exclusivity
 
